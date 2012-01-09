@@ -18,6 +18,7 @@ public class Query extends BaseConcept implements INamedConcept {
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
+  public static final String WHERE_CLAUSE = "whereClause";
   public static final String SMODEL_ATTRIBUTE = "smodelAttribute";
 
   public Query(SNode node) {
@@ -54,6 +55,14 @@ public class Query extends BaseConcept implements INamedConcept {
 
   public void setVirtualPackage(String value) {
     this.setProperty(Query.VIRTUAL_PACKAGE, value);
+  }
+
+  public WhereClause getWhereClause() {
+    return (WhereClause) this.getChild(WhereClause.class, Query.WHERE_CLAUSE);
+  }
+
+  public void setWhereClause(WhereClause node) {
+    super.setChild(Query.WHERE_CLAUSE, node);
   }
 
   public int getSmodelAttributesCount() {

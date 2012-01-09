@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="-1" />
+    </dependencies>
+    <rename id="89ga.3523181383831910518" type="CONCEPT" from="AndWhereExpression" to="LogicalWhereExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="0" />
+    </dependencies>
+    <rename id="89ga.3523181383831989292" type="CONCEPT" from="OrWhereClause" to="OrWhereExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="1" />
+    </dependencies>
+    <rename id="89ga.3523181383831989289" type="CONCEPT" from="AndWhereClause" to="AndWhereExpression" />
+  </StructureModification>
+</history>
+

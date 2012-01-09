@@ -7,8 +7,8 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7818489619910589391(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -25,6 +25,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_7818489619910598641(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
+  }
+
+  public static SNode sourceNodeQuery_3523181383831999110(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "whereClause", true);
   }
 
   public static Iterable sourceNodesQuery_7818489619910598056(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

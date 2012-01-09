@@ -7,17 +7,29 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.Queries", "DeCypher.structure.Query"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.WhereClause"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 0:
+      case 4:
         return new Queries_BehaviorDescriptor();
-      case 1:
+      case 5:
         return new Query_BehaviorDescriptor();
+      case 7:
+        return new WhereClause_BehaviorDescriptor();
+      case 0:
+        return new AndWhereExpression_BehaviorDescriptor();
+      case 3:
+        return new OrWhereExpression_BehaviorDescriptor();
+      case 6:
+        return new TrueWhereExpression_BehaviorDescriptor();
+      case 1:
+        return new FalseWhereExpression_BehaviorDescriptor();
+      case 2:
+        return new NotWhereExpression_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

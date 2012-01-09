@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="NotWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.NotWhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="FalseWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.FalseWhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="TrueWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.TrueWhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="OrWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.OrWhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="AndWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.AndWhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="LogicalWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.LogicalWhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="WhereExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.WhereExpression_BehaviorDescriptor" />
+  <unitInfo fileName="WhereClause_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.WhereClause_BehaviorDescriptor" />
   <unitInfo fileName="Query_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Query_BehaviorDescriptor" />
   <unitInfo fileName="Queries_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Queries_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="38" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
+  <root nodeId="3523181383832008182">
+    <nodeInfo nodeId="3523181383832008182" fileName="WhereExpression_Behavior.java" startLine="7" startPosition="39" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="3523181383832008184" fileName="WhereExpression_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="3523181383832008182" fileName="WhereExpression_Behavior.java" startLine="7" startPosition="39" endLine="10" endPosition="0" />
+    <unitInfo nodeId="3523181383832008182" fileName="WhereExpression_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="DeCypher.behavior.WhereExpression_Behavior" />
+  </root>
+  <root nodeId="3523181383832008193">
+    <nodeInfo nodeId="3523181383832008196" fileName="WhereClause_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383832008193" fileName="WhereClause_Behavior.java" startLine="9" startPosition="35" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="3523181383832008195" fileName="WhereClause_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="136" />
+    <scopeInfo nodeId="3523181383832008193" fileName="WhereClause_Behavior.java" startLine="9" startPosition="35" endLine="13" endPosition="0" />
+    <unitInfo nodeId="3523181383832008193" fileName="WhereClause_Behavior.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="DeCypher.behavior.WhereClause_Behavior" />
+  </root>
 </debugInfo>
 
