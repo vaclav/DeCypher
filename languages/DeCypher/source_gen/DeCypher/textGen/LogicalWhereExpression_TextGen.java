@@ -10,10 +10,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperati
 
 public class LogicalWhereExpression_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    this.append("(");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "left", true), this.getSNode());
     this.append(" ");
     this.append(SConceptPropertyOperations.getString(node, "alias"));
     this.append(" ");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "right", true), this.getSNode());
+    this.append(")");
   }
 }

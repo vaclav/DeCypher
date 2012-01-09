@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="3523181383831910634">
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="13" startPosition="146" endLine="14" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="14" startPosition="21" endLine="15" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="15" startPosition="69" endLine="16" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="16" startPosition="21" endLine="17" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="16" startPosition="21" endLine="17" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="11" startPosition="66" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="146" />
-    <scopeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="16" startPosition="21" endLine="17" endPosition="147" />
-    <scopeInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="147" />
-    <scopeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="147" />
-    <scopeInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="11" startPosition="66" endLine="19" endPosition="0" />
-    <unitInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="DeCypher.textGen.LogicalWhereExpression_TextGen" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="13" startPosition="21" endLine="14" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="13" startPosition="21" endLine="14" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="14" startPosition="146" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="16" startPosition="69" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="17" startPosition="21" endLine="18" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="17" startPosition="21" endLine="18" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="18" startPosition="147" endLine="19" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="11" startPosition="66" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="13" startPosition="21" endLine="14" endPosition="146" />
+    <scopeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="17" startPosition="21" endLine="18" endPosition="147" />
+    <scopeInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="21" />
+    <scopeInfo nodeId="3523181383831910637" fileName="LogicalWhereExpression_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="21" />
+    <scopeInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="11" startPosition="66" endLine="21" endPosition="0" />
+    <unitInfo nodeId="3523181383831910634" fileName="LogicalWhereExpression_TextGen.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="DeCypher.textGen.LogicalWhereExpression_TextGen" />
   </root>
   <root nodeId="3523181383831989301">
     <nodeInfo nodeId="3523181383831989304" fileName="TrueWhereExpression_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
