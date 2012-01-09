@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="Query_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Query_BehaviorDescriptor" />
+  <unitInfo fileName="Queries_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Queries_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
+</debugInfo>
+
