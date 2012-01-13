@@ -10,7 +10,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class WhereClause_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append("\"WHERE ");
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "body", true), this.getSNode());
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "term", true), this.getSNode());
     this.append("\"");
   }
 }

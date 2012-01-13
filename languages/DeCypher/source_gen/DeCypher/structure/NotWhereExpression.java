@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class NotWhereExpression extends WhereExpression {
+public class NotWhereExpression extends NodeExpressionWhereTerm {
   public static final String concept = "DeCypher.structure.NotWhereExpression";
   public static final String ORIGINAL = "original";
 
@@ -15,11 +15,11 @@ public class NotWhereExpression extends WhereExpression {
     super(node);
   }
 
-  public WhereExpression getOriginal() {
-    return (WhereExpression) this.getChild(WhereExpression.class, NotWhereExpression.ORIGINAL);
+  public NodeExpressionWhereTerm getOriginal() {
+    return (NodeExpressionWhereTerm) this.getChild(NodeExpressionWhereTerm.class, NotWhereExpression.ORIGINAL);
   }
 
-  public void setOriginal(WhereExpression node) {
+  public void setOriginal(NodeExpressionWhereTerm node) {
     super.setChild(NotWhereExpression.ORIGINAL, node);
   }
 

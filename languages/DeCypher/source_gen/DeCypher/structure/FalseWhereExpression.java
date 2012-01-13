@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class FalseWhereExpression extends WhereExpression {
+public class FalseWhereExpression extends NodeExpressionWhereTerm {
   public static final String concept = "DeCypher.structure.FalseWhereExpression";
 
   public FalseWhereExpression(SNode node) {

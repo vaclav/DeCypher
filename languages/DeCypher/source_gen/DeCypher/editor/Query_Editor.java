@@ -27,6 +27,8 @@ public class Query_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_3jay6a_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_3jay6a_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_3jay6a_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_3jay6a_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_3jay6a_e0(editorContext, node));
     return editorCell;
   }
 
@@ -39,8 +41,52 @@ public class Query_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_3jay6a_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("startClause");
+    provider.setNoTargetText("<no startClause>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_3jay6a_d0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("whereClause");
     provider.setNoTargetText("<no whereClause>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_3jay6a_e0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("returnClause");
+    provider.setNoTargetText("<no returnClause>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     {

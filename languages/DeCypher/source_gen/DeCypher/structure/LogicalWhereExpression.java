@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class LogicalWhereExpression extends WhereExpression {
+public class LogicalWhereExpression extends NodeExpressionWhereTerm {
   public static final String concept = "DeCypher.structure.LogicalWhereExpression";
   public static final String LEFT = "left";
   public static final String RIGHT = "right";
@@ -16,19 +16,19 @@ public class LogicalWhereExpression extends WhereExpression {
     super(node);
   }
 
-  public WhereExpression getLeft() {
-    return (WhereExpression) this.getChild(WhereExpression.class, LogicalWhereExpression.LEFT);
+  public NodeExpressionWhereTerm getLeft() {
+    return (NodeExpressionWhereTerm) this.getChild(NodeExpressionWhereTerm.class, LogicalWhereExpression.LEFT);
   }
 
-  public void setLeft(WhereExpression node) {
+  public void setLeft(NodeExpressionWhereTerm node) {
     super.setChild(LogicalWhereExpression.LEFT, node);
   }
 
-  public WhereExpression getRight() {
-    return (WhereExpression) this.getChild(WhereExpression.class, LogicalWhereExpression.RIGHT);
+  public NodeExpressionWhereTerm getRight() {
+    return (NodeExpressionWhereTerm) this.getChild(NodeExpressionWhereTerm.class, LogicalWhereExpression.RIGHT);
   }
 
-  public void setRight(WhereExpression node) {
+  public void setRight(NodeExpressionWhereTerm node) {
     super.setChild(LogicalWhereExpression.RIGHT, node);
   }
 

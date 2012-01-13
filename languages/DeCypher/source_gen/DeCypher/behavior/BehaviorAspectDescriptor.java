@@ -7,29 +7,57 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.WhereClause"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.ReturnClause", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StartClause", "DeCypher.structure.StartTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.WhereClause"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 4:
+      case 13:
         return new Queries_BehaviorDescriptor();
-      case 5:
+      case 14:
         return new Query_BehaviorDescriptor();
-      case 7:
+      case 21:
         return new WhereClause_BehaviorDescriptor();
       case 0:
         return new AndWhereExpression_BehaviorDescriptor();
-      case 3:
+      case 8:
         return new OrWhereExpression_BehaviorDescriptor();
-      case 6:
+      case 20:
         return new TrueWhereExpression_BehaviorDescriptor();
-      case 1:
-        return new FalseWhereExpression_BehaviorDescriptor();
       case 2:
+        return new FalseWhereExpression_BehaviorDescriptor();
+      case 7:
         return new NotWhereExpression_BehaviorDescriptor();
+      case 16:
+        return new SimpleNodeWhereTerm_BehaviorDescriptor();
+      case 3:
+        return new GraphNode_BehaviorDescriptor();
+      case 4:
+        return new GraphNodeReference_BehaviorDescriptor();
+      case 10:
+        return new PropertyReference_BehaviorDescriptor();
+      case 5:
+        return new NodeReferringWhereTerm_BehaviorDescriptor();
+      case 11:
+        return new PropertyReferringWhereTerm_BehaviorDescriptor();
+      case 9:
+        return new PropertyExpressionWhereTerm_BehaviorDescriptor();
+      case 17:
+        return new SimplePropertyWhereTerm_BehaviorDescriptor();
+      case 18:
+        return new StartClause_BehaviorDescriptor();
+      case 19:
+        return new StartTerm_BehaviorDescriptor();
+      case 15:
+        return new ReturnClause_BehaviorDescriptor();
+      case 6:
+        return new NodeReturnTerm_BehaviorDescriptor();
+      case 12:
+        return new PropertyReturnTerm_BehaviorDescriptor();
+      case 1:
+        return new DistinctReturnTerm_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

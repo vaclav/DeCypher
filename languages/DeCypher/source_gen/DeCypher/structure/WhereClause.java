@@ -4,24 +4,38 @@ package DeCypher.structure;
 
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.smodel.SNode;
+import java.util.Iterator;
+import java.util.List;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class WhereClause extends BaseConcept {
   public static final String concept = "DeCypher.structure.WhereClause";
-  public static final String BODY = "body";
+  public static final String TERM = "term";
 
   public WhereClause(SNode node) {
     super(node);
   }
 
-  public WhereExpression getBody() {
-    return (WhereExpression) this.getChild(WhereExpression.class, WhereClause.BODY);
+  public int getTermsCount() {
+    return this.getChildCount(WhereClause.TERM);
   }
 
-  public void setBody(WhereExpression node) {
-    super.setChild(WhereClause.BODY, node);
+  public Iterator<WhereTerm> terms() {
+    return this.children(WhereTerm.class, WhereClause.TERM);
+  }
+
+  public List<WhereTerm> getTerms() {
+    return this.getChildren(WhereTerm.class, WhereClause.TERM);
+  }
+
+  public void addTerm(WhereTerm node) {
+    this.addChild(WhereClause.TERM, node);
+  }
+
+  public void insertTerm(WhereTerm prev, WhereTerm node) {
+    this.insertChild(prev, WhereClause.TERM, node);
   }
 
   public static WhereClause newInstance(SModel sm, boolean init) {

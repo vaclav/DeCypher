@@ -18,5 +18,71 @@
     </dependencies>
     <rename id="89ga.3523181383831989289" type="CONCEPT" from="AndWhereClause" to="AndWhereExpression" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="2" />
+    </dependencies>
+    <rename id="89ga.3523181383831908966" type="CHILD" from="body" to="term" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="3" />
+    </dependencies>
+    <rename id="89ga.3523181383831908963" type="CONCEPT" from="WhereExpression" to="ExpressionWhereTerm" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="4" />
+    </dependencies>
+    <rename id="89ga.2541834658516920947" type="CONCEPT" from="Node" to="GraphNode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="5" />
+    </dependencies>
+    <rename id="89ga.2541834658516920958" type="CONCEPT" from="NodeReference" to="GraphNodeReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="6" />
+    </dependencies>
+    <rename id="89ga.2541834658516920960" type="REFERENCE" from="node" to="original" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="7" />
+    </dependencies>
+    <rename id="89ga.2541834658516920960" type="REFERENCE" from="original" to="graphNode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="8" />
+    </dependencies>
+    <rename id="89ga.2541834658517027334" type="CONCEPT" from="NodeReferingWhereTerm" to="NodeReferringWhereTerm" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="9" />
+    </dependencies>
+    <rename id="89ga.3523181383831908963" type="CONCEPT" from="ExpressionWhereTerm" to="NodeExpressionWhereTerm" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="10" />
+    </dependencies>
+    <rename id="89ga.2541834658516920945" type="CONCEPT" from="SimpleWhereTerm" to="SimpleNodeWhereTerm" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="11" />
+    </dependencies>
+    <rename id="89ga.2541834658517027316" type="REFERENCE" from="nodeReference" to="graphNode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="12" />
+    </dependencies>
+    <rename id="89ga.2541834658516916634" type="CHILD" from="expression" to="expression1" />
+  </StructureModification>
 </history>
 

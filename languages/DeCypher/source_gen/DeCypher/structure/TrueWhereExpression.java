@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class TrueWhereExpression extends WhereExpression {
+public class TrueWhereExpression extends NodeExpressionWhereTerm {
   public static final String concept = "DeCypher.structure.TrueWhereExpression";
 
   public TrueWhereExpression(SNode node) {

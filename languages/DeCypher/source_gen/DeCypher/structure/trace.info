@@ -1,57 +1,443 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="DeCypher_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.structure.DeCypher_Language" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="DeCypher.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="75" endPosition="0" unitName="DeCypher.structure.StructureAspectDescriptor" />
+  <root nodeId="2541834658516763898">
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="11" startPosition="44" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="14" startPosition="32" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="18" startPosition="64" endLine="19" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="22" startPosition="50" endLine="23" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/WhereTerm;" />
+    <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/WhereTerm;" />
+    <scopeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="14" startPosition="32" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="18" startPosition="64" endLine="19" endPosition="150" />
+    <scopeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="22" startPosition="50" endLine="23" endPosition="44" />
+    <scopeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <unitInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.structure.WhereTerm" />
+  </root>
+  <root nodeId="2541834658516920945">
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="10" startPosition="65" endLine="11" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="11" startPosition="80" endLine="12" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="14" startPosition="42" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="18" startPosition="28" endLine="19" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="22" startPosition="38" endLine="23" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="26" startPosition="74" endLine="27" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="30" startPosition="60" endLine="31" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleNodeWhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setValue#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/SimpleNodeWhereTerm;" />
+    <nodeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/SimpleNodeWhereTerm;" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="14" startPosition="42" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="18" startPosition="28" endLine="19" endPosition="55" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="22" startPosition="38" endLine="23" endPosition="55" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="26" startPosition="74" endLine="27" endPosition="170" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="30" startPosition="60" endLine="31" endPosition="54" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="2541834658516920945" fileName="SimpleNodeWhereTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.SimpleNodeWhereTerm" />
+  </root>
+  <root nodeId="2541834658516920947">
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="15" startPosition="72" endLine="16" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="16" startPosition="70" endLine="17" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="17" startPosition="43" endLine="18" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="18" startPosition="68" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="19" startPosition="45" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="20" startPosition="64" endLine="21" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="23" startPosition="32" endLine="24" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="27" startPosition="27" endLine="28" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="31" startPosition="37" endLine="32" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="35" startPosition="39" endLine="36" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="39" startPosition="49" endLine="40" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="43" startPosition="28" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="47" startPosition="38" endLine="48" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="51" startPosition="37" endLine="52" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="55" startPosition="47" endLine="56" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="59" startPosition="41" endLine="60" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="63" startPosition="49" endLine="64" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="67" startPosition="48" endLine="68" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="71" startPosition="50" endLine="72" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="75" startPosition="69" endLine="76" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="79" startPosition="64" endLine="80" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="83" startPosition="50" endLine="84" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="22" startPosition="0" endLine="25" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GraphNode#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="66" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="70" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="78" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/GraphNode;" />
+    <nodeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/GraphNode;" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="23" startPosition="32" endLine="24" endPosition="16" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="27" startPosition="27" endLine="28" endPosition="44" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="31" startPosition="37" endLine="32" endPosition="44" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="35" startPosition="39" endLine="36" endPosition="57" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="39" startPosition="49" endLine="40" endPosition="57" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="43" startPosition="28" endLine="44" endPosition="45" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="47" startPosition="38" endLine="48" endPosition="45" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="51" startPosition="37" endLine="52" endPosition="55" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="55" startPosition="47" endLine="56" endPosition="55" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="59" startPosition="41" endLine="60" endPosition="58" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="63" startPosition="49" endLine="64" endPosition="70" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="67" startPosition="48" endLine="68" endPosition="73" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="71" startPosition="50" endLine="72" endPosition="52" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="75" startPosition="69" endLine="76" endPosition="61" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="79" startPosition="64" endLine="80" endPosition="150" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="83" startPosition="50" endLine="84" endPosition="44" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <unitInfo nodeId="2541834658516920947" fileName="GraphNode.java" startLine="15" startPosition="0" endLine="87" endPosition="0" unitName="DeCypher.structure.GraphNode" />
+  </root>
+  <root nodeId="2541834658516920958">
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="11" startPosition="53" endLine="12" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="12" startPosition="79" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="GRAPH_NODE" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="15" startPosition="41" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="19" startPosition="35" endLine="20" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="23" startPosition="44" endLine="24" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="27" startPosition="73" endLine="28" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="31" startPosition="59" endLine="32" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GraphNodeReference#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraphNode#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setGraphNode#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/GraphNodeReference;" />
+    <nodeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/GraphNodeReference;" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="15" startPosition="41" endLine="16" endPosition="16" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="19" startPosition="35" endLine="20" endPosition="88" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="23" startPosition="44" endLine="24" endPosition="59" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="27" startPosition="73" endLine="28" endPosition="168" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="31" startPosition="59" endLine="32" endPosition="53" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <unitInfo nodeId="2541834658516920958" fileName="GraphNodeReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="DeCypher.structure.GraphNodeReference" />
+  </root>
+  <root nodeId="2541834658517027313">
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="15" startPosition="77" endLine="16" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="16" startPosition="78" endLine="17" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="17" startPosition="43" endLine="18" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="18" startPosition="68" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="19" startPosition="45" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="20" startPosition="64" endLine="21" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="GRAPH_NODE" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="21" startPosition="54" endLine="22" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="24" startPosition="40" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="28" startPosition="27" endLine="29" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="32" startPosition="37" endLine="33" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="36" startPosition="39" endLine="37" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="40" startPosition="49" endLine="41" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="44" startPosition="28" endLine="45" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="48" startPosition="38" endLine="49" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="52" startPosition="37" endLine="53" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="56" startPosition="47" endLine="57" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="60" startPosition="35" endLine="61" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="64" startPosition="44" endLine="65" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="68" startPosition="41" endLine="69" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="72" startPosition="49" endLine="73" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="76" startPosition="48" endLine="77" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="80" startPosition="50" endLine="81" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="84" startPosition="69" endLine="85" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="88" startPosition="72" endLine="89" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="92" startPosition="58" endLine="93" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="23" startPosition="0" endLine="26" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PropertyReference#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="59" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraphNode#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="63" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setGraphNode#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="67" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="71" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="75" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="79" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="83" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="87" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/PropertyReference;" />
+    <nodeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="91" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/PropertyReference;" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="24" startPosition="40" endLine="25" endPosition="16" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="28" startPosition="27" endLine="29" endPosition="52" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="32" startPosition="37" endLine="33" endPosition="52" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="36" startPosition="39" endLine="37" endPosition="65" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="40" startPosition="49" endLine="41" endPosition="65" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="44" startPosition="28" endLine="45" endPosition="53" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="48" startPosition="38" endLine="49" endPosition="53" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="52" startPosition="37" endLine="53" endPosition="63" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="56" startPosition="47" endLine="57" endPosition="63" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="60" startPosition="35" endLine="61" endPosition="87" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="64" startPosition="44" endLine="65" endPosition="58" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="68" startPosition="41" endLine="69" endPosition="66" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="72" startPosition="49" endLine="73" endPosition="78" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="76" startPosition="48" endLine="77" endPosition="81" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="80" startPosition="50" endLine="81" endPosition="60" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="84" startPosition="69" endLine="85" endPosition="69" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="88" startPosition="72" endLine="89" endPosition="166" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="92" startPosition="58" endLine="93" endPosition="52" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="23" startPosition="0" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
+    <unitInfo nodeId="2541834658517027313" fileName="PropertyReference.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="DeCypher.structure.PropertyReference" />
+  </root>
+  <root nodeId="2541834658517027334">
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="10" startPosition="55" endLine="11" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="11" startPosition="83" endLine="12" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NODE_REF" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="14" startPosition="45" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="18" startPosition="42" endLine="19" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="22" startPosition="51" endLine="23" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="26" startPosition="77" endLine="27" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="30" startPosition="63" endLine="31" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeReferringWhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNodeRef#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setNodeRef#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/NodeReferringWhereTerm;" />
+    <nodeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/NodeReferringWhereTerm;" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="14" startPosition="45" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="18" startPosition="42" endLine="19" endPosition="105" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="22" startPosition="51" endLine="23" endPosition="58" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="26" startPosition="77" endLine="27" endPosition="176" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="30" startPosition="63" endLine="31" endPosition="57" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="2541834658517027334" fileName="NodeReferringWhereTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.NodeReferringWhereTerm" />
+  </root>
+  <root nodeId="2541834658517027335">
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="10" startPosition="59" endLine="11" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="11" startPosition="87" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PROPERTY_REFERENCE" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="14" startPosition="49" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="18" startPosition="51" endLine="19" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="22" startPosition="60" endLine="23" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="26" startPosition="81" endLine="27" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="30" startPosition="67" endLine="31" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PropertyReferringWhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPropertyReference#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPropertyReference#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/PropertyReferringWhereTerm;" />
+    <nodeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/PropertyReferringWhereTerm;" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="14" startPosition="49" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="18" startPosition="51" endLine="19" endPosition="117" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="22" startPosition="60" endLine="23" endPosition="72" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="26" startPosition="81" endLine="27" endPosition="184" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="30" startPosition="67" endLine="31" endPosition="61" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="2541834658517027335" fileName="PropertyReferringWhereTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.PropertyReferringWhereTerm" />
+  </root>
+  <root nodeId="2541834658517040253">
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="10" startPosition="77" endLine="11" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="13" startPosition="50" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="17" startPosition="82" endLine="18" endPosition="186" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="21" startPosition="68" endLine="22" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="12" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PropertyExpressionWhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/PropertyExpressionWhereTerm;" />
+    <nodeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/PropertyExpressionWhereTerm;" />
+    <scopeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="13" startPosition="50" endLine="14" endPosition="16" />
+    <scopeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="17" startPosition="82" endLine="18" endPosition="186" />
+    <scopeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="21" startPosition="68" endLine="22" endPosition="62" />
+    <scopeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <unitInfo nodeId="2541834658517040253" fileName="PropertyExpressionWhereTerm.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.PropertyExpressionWhereTerm" />
+  </root>
+  <root nodeId="2541834658517055506">
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="10" startPosition="73" endLine="11" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="11" startPosition="84" endLine="12" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="14" startPosition="46" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="18" startPosition="28" endLine="19" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="22" startPosition="38" endLine="23" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="26" startPosition="78" endLine="27" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="30" startPosition="64" endLine="31" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimplePropertyWhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setValue#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/SimplePropertyWhereTerm;" />
+    <nodeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/SimplePropertyWhereTerm;" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="14" startPosition="46" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="18" startPosition="28" endLine="19" endPosition="59" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="22" startPosition="38" endLine="23" endPosition="59" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="26" startPosition="78" endLine="27" endPosition="178" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="30" startPosition="64" endLine="31" endPosition="58" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="2541834658517055506" fileName="SimplePropertyWhereTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.SimplePropertyWhereTerm" />
+  </root>
+  <root nodeId="2541834658517078140">
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="13" startPosition="46" endLine="14" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="14" startPosition="72" endLine="15" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TERMS" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="17" startPosition="34" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="21" startPosition="32" endLine="22" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="25" startPosition="40" endLine="26" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="29" startPosition="39" endLine="30" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="33" startPosition="40" endLine="34" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="37" startPosition="59" endLine="38" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="41" startPosition="66" endLine="42" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="45" startPosition="52" endLine="46" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StartClause#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTermsesCount#()I" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="termses#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTermses#()Ljava/util/List;" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addTerms#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertTerms#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/StartClause;" />
+    <nodeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/StartClause;" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="17" startPosition="34" endLine="18" endPosition="16" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="21" startPosition="32" endLine="22" endPosition="49" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="25" startPosition="40" endLine="26" endPosition="61" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="29" startPosition="39" endLine="30" endPosition="64" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="33" startPosition="40" endLine="34" endPosition="43" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="37" startPosition="59" endLine="38" endPosition="52" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="41" startPosition="66" endLine="42" endPosition="154" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="45" startPosition="52" endLine="46" endPosition="46" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <unitInfo nodeId="2541834658517078140" fileName="StartClause.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="DeCypher.structure.StartClause" />
+  </root>
+  <root nodeId="2541834658517078141">
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="11" startPosition="44" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="12" startPosition="70" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="GRAPH_NODE" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="15" startPosition="32" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="19" startPosition="35" endLine="20" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="23" startPosition="44" endLine="24" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="27" startPosition="64" endLine="28" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="31" startPosition="50" endLine="32" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="14" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StartTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraphNode#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setGraphNode#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/StartTerm;" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/StartTerm;" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="15" startPosition="32" endLine="16" endPosition="16" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="19" startPosition="35" endLine="20" endPosition="76" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="23" startPosition="44" endLine="24" endPosition="47" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="27" startPosition="64" endLine="28" endPosition="150" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="31" startPosition="50" endLine="32" endPosition="44" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <unitInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="DeCypher.structure.StartTerm" />
+  </root>
   <root nodeId="3523181383831908962">
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="11" startPosition="46" endLine="12" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="12" startPosition="72" endLine="13" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="BODY" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="15" startPosition="34" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="19" startPosition="36" endLine="20" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="23" startPosition="45" endLine="24" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="27" startPosition="66" endLine="28" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="31" startPosition="52" endLine="32" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="14" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WhereClause#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBody#()Ljetbrains/mps/smodel/INodeAdapter;" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBody#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/WhereClause;" />
-    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/WhereClause;" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="15" startPosition="34" endLine="16" endPosition="16" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="19" startPosition="36" endLine="20" endPosition="84" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="23" startPosition="45" endLine="24" endPosition="43" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="27" startPosition="66" endLine="28" endPosition="154" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="31" startPosition="52" endLine="32" endPosition="46" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <unitInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="DeCypher.structure.WhereClause" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="13" startPosition="46" endLine="14" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="14" startPosition="72" endLine="15" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TERM" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="17" startPosition="34" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="21" startPosition="30" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="25" startPosition="38" endLine="26" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="29" startPosition="37" endLine="30" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="33" startPosition="39" endLine="34" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="37" startPosition="58" endLine="38" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="41" startPosition="66" endLine="42" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="45" startPosition="52" endLine="46" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WhereClause#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTermsCount#()I" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="terms#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTerms#()Ljava/util/List;" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addTerm#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertTerm#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/WhereClause;" />
+    <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/WhereClause;" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="17" startPosition="34" endLine="18" endPosition="16" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="21" startPosition="30" endLine="22" endPosition="48" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="25" startPosition="38" endLine="26" endPosition="60" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="29" startPosition="37" endLine="30" endPosition="63" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="33" startPosition="39" endLine="34" endPosition="42" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="37" startPosition="58" endLine="38" endPosition="51" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="41" startPosition="66" endLine="42" endPosition="154" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="45" startPosition="52" endLine="46" endPosition="46" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <unitInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="DeCypher.structure.WhereClause" />
   </root>
   <root nodeId="3523181383831908963">
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="11" startPosition="50" endLine="12" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="14" startPosition="38" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="18" startPosition="70" endLine="19" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="22" startPosition="56" endLine="23" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WhereExpression#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/WhereExpression;" />
-    <nodeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/WhereExpression;" />
-    <scopeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="14" startPosition="38" endLine="15" endPosition="16" />
-    <scopeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="18" startPosition="70" endLine="19" endPosition="162" />
-    <scopeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="22" startPosition="56" endLine="23" endPosition="50" />
-    <scopeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <unitInfo nodeId="3523181383831908963" fileName="WhereExpression.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.structure.WhereExpression" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="10" startPosition="69" endLine="11" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="13" startPosition="46" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="17" startPosition="78" endLine="18" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="21" startPosition="64" endLine="22" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="12" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeExpressionWhereTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/NodeExpressionWhereTerm;" />
+    <nodeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/NodeExpressionWhereTerm;" />
+    <scopeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="13" startPosition="46" endLine="14" endPosition="16" />
+    <scopeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="17" startPosition="78" endLine="18" endPosition="178" />
+    <scopeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="21" startPosition="64" endLine="22" endPosition="58" />
+    <scopeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <unitInfo nodeId="3523181383831908963" fileName="NodeExpressionWhereTerm.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.NodeExpressionWhereTerm" />
   </root>
   <root nodeId="3523181383831910518">
-    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="10" startPosition="61" endLine="11" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="10" startPosition="69" endLine="11" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="11" startPosition="83" endLine="12" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LEFT" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="12" startPosition="43" endLine="13" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RIGHT" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="15" startPosition="45" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="19" startPosition="36" endLine="20" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="23" startPosition="45" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="27" startPosition="37" endLine="28" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="31" startPosition="46" endLine="32" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="19" startPosition="44" endLine="20" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="23" startPosition="53" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="27" startPosition="45" endLine="28" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="31" startPosition="54" endLine="32" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="35" startPosition="77" endLine="36" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="39" startPosition="63" endLine="40" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="14" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LogicalWhereExpression#(Ljetbrains/mps/smodel/SNode;)V" />
@@ -62,10 +448,10 @@
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/LogicalWhereExpression;" />
     <nodeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/LogicalWhereExpression;" />
     <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="15" startPosition="45" endLine="16" endPosition="16" />
-    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="19" startPosition="36" endLine="20" endPosition="95" />
-    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="23" startPosition="45" endLine="24" endPosition="54" />
-    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="27" startPosition="37" endLine="28" endPosition="96" />
-    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="31" startPosition="46" endLine="32" endPosition="55" />
+    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="19" startPosition="44" endLine="20" endPosition="111" />
+    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="23" startPosition="53" endLine="24" endPosition="54" />
+    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="27" startPosition="45" endLine="28" endPosition="112" />
+    <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="31" startPosition="54" endLine="32" endPosition="55" />
     <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="35" startPosition="77" endLine="36" endPosition="176" />
     <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="39" startPosition="63" endLine="40" endPosition="57" />
     <scopeInfo nodeId="3523181383831910518" fileName="LogicalWhereExpression.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
@@ -110,7 +496,7 @@
     <unitInfo nodeId="3523181383831989292" fileName="OrWhereExpression.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.OrWhereExpression" />
   </root>
   <root nodeId="3523181383831989295">
-    <nodeInfo nodeId="3523181383831989295" fileName="TrueWhereExpression.java" startLine="10" startPosition="58" endLine="11" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="3523181383831989295" fileName="TrueWhereExpression.java" startLine="10" startPosition="66" endLine="11" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3523181383831989295" fileName="TrueWhereExpression.java" startLine="13" startPosition="42" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="3523181383831989295" fileName="TrueWhereExpression.java" startLine="17" startPosition="74" endLine="18" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3523181383831989295" fileName="TrueWhereExpression.java" startLine="21" startPosition="60" endLine="22" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -126,7 +512,7 @@
     <unitInfo nodeId="3523181383831989295" fileName="TrueWhereExpression.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.TrueWhereExpression" />
   </root>
   <root nodeId="3523181383831989307">
-    <nodeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="10" startPosition="59" endLine="11" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="10" startPosition="67" endLine="11" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="13" startPosition="43" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="17" startPosition="75" endLine="18" endPosition="172" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="21" startPosition="61" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -140,6 +526,134 @@
     <scopeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
     <scopeInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
     <unitInfo nodeId="3523181383831989307" fileName="FalseWhereExpression.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.FalseWhereExpression" />
+  </root>
+  <root nodeId="6594089058936980500">
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="13" startPosition="47" endLine="14" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="14" startPosition="73" endLine="15" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TERMS" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="17" startPosition="35" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="21" startPosition="32" endLine="22" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="25" startPosition="41" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="29" startPosition="40" endLine="30" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="33" startPosition="41" endLine="34" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="37" startPosition="61" endLine="38" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="41" startPosition="67" endLine="42" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="45" startPosition="53" endLine="46" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ReturnClause#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTermsesCount#()I" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="termses#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTermses#()Ljava/util/List;" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addTerms#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertTerms#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/ReturnClause;" />
+    <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/ReturnClause;" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="17" startPosition="35" endLine="18" endPosition="16" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="21" startPosition="32" endLine="22" endPosition="50" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="25" startPosition="41" endLine="26" endPosition="63" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="29" startPosition="40" endLine="30" endPosition="66" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="33" startPosition="41" endLine="34" endPosition="44" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="37" startPosition="61" endLine="38" endPosition="53" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="41" startPosition="67" endLine="42" endPosition="156" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="45" startPosition="53" endLine="46" endPosition="47" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <unitInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="DeCypher.structure.ReturnClause" />
+  </root>
+  <root nodeId="6594089058936980502">
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="11" startPosition="45" endLine="12" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="14" startPosition="33" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="18" startPosition="65" endLine="19" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="22" startPosition="51" endLine="23" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ReturnTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/ReturnTerm;" />
+    <nodeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/ReturnTerm;" />
+    <scopeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="14" startPosition="33" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="18" startPosition="65" endLine="19" endPosition="152" />
+    <scopeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="22" startPosition="51" endLine="23" endPosition="45" />
+    <scopeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <unitInfo nodeId="6594089058936980502" fileName="ReturnTerm.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.structure.ReturnTerm" />
+  </root>
+  <root nodeId="6594089058936980514">
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="10" startPosition="48" endLine="11" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="11" startPosition="75" endLine="12" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="GRAPH_NODE" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="14" startPosition="37" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="18" startPosition="44" endLine="19" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="22" startPosition="53" endLine="23" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="26" startPosition="69" endLine="27" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="30" startPosition="55" endLine="31" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeReturnTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraphNode#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setGraphNode#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/NodeReturnTerm;" />
+    <nodeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/NodeReturnTerm;" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="14" startPosition="37" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="18" startPosition="44" endLine="19" endPosition="99" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="22" startPosition="53" endLine="23" endPosition="52" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="26" startPosition="69" endLine="27" endPosition="160" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="30" startPosition="55" endLine="31" endPosition="49" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="6594089058936980514" fileName="NodeReturnTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.NodeReturnTerm" />
+  </root>
+  <root nodeId="6594089058936980519">
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="10" startPosition="52" endLine="11" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="11" startPosition="79" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PROPERTY_REFERENCE" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="14" startPosition="41" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="18" startPosition="51" endLine="19" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="22" startPosition="60" endLine="23" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="26" startPosition="73" endLine="27" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="30" startPosition="59" endLine="31" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PropertyReturnTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPropertyReference#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPropertyReference#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/PropertyReturnTerm;" />
+    <nodeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/PropertyReturnTerm;" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="14" startPosition="41" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="18" startPosition="51" endLine="19" endPosition="109" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="22" startPosition="60" endLine="23" endPosition="64" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="26" startPosition="73" endLine="27" endPosition="168" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="30" startPosition="59" endLine="31" endPosition="53" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="6594089058936980519" fileName="PropertyReturnTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.PropertyReturnTerm" />
+  </root>
+  <root nodeId="6594089058936992699">
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="10" startPosition="52" endLine="11" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="11" startPosition="79" endLine="12" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NODE_RETURN_TERM" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="14" startPosition="41" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="18" startPosition="45" endLine="19" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="22" startPosition="54" endLine="23" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="26" startPosition="73" endLine="27" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="30" startPosition="59" endLine="31" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DistinctReturnTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNodeReturnTerm#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setNodeReturnTerm#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/DistinctReturnTerm;" />
+    <nodeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/DistinctReturnTerm;" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="14" startPosition="41" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="18" startPosition="45" endLine="19" endPosition="101" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="22" startPosition="54" endLine="23" endPosition="62" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="26" startPosition="73" endLine="27" endPosition="168" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="30" startPosition="59" endLine="31" endPosition="53" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.DistinctReturnTerm" />
   </root>
   <root nodeId="7818489619910585460">
     <nodeInfo nodeId="7818489619910585460" fileName="Queries.java" startLine="15" startPosition="67" endLine="16" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -241,88 +755,106 @@
     <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="17" startPosition="43" endLine="18" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="18" startPosition="68" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
     <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="19" startPosition="45" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="20" startPosition="64" endLine="21" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="WHERE_CLAUSE" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="21" startPosition="58" endLine="22" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="24" startPosition="28" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="28" startPosition="27" endLine="29" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="32" startPosition="37" endLine="33" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="36" startPosition="39" endLine="37" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="40" startPosition="49" endLine="41" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="44" startPosition="28" endLine="45" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="48" startPosition="38" endLine="49" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="52" startPosition="37" endLine="53" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="56" startPosition="47" endLine="57" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="60" startPosition="39" endLine="61" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="64" startPosition="48" endLine="65" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="68" startPosition="41" endLine="69" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="72" startPosition="49" endLine="73" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="76" startPosition="48" endLine="77" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="80" startPosition="50" endLine="81" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="84" startPosition="69" endLine="85" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="88" startPosition="60" endLine="89" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="92" startPosition="46" endLine="93" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="23" startPosition="0" endLine="26" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Query#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="59" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getWhereClause#()Ljetbrains/mps/smodel/INodeAdapter;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="63" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setWhereClause#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="67" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="71" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="75" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="79" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="83" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="87" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/Query;" />
-    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="91" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/Query;" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="24" startPosition="28" endLine="25" endPosition="16" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="28" startPosition="27" endLine="29" endPosition="40" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="32" startPosition="37" endLine="33" endPosition="40" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="36" startPosition="39" endLine="37" endPosition="53" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="40" startPosition="49" endLine="41" endPosition="53" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="44" startPosition="28" endLine="45" endPosition="41" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="48" startPosition="38" endLine="49" endPosition="41" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="52" startPosition="37" endLine="53" endPosition="51" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="56" startPosition="47" endLine="57" endPosition="51" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="60" startPosition="39" endLine="61" endPosition="78" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="64" startPosition="48" endLine="65" endPosition="45" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="68" startPosition="41" endLine="69" endPosition="54" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="72" startPosition="49" endLine="73" endPosition="66" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="76" startPosition="48" endLine="77" endPosition="69" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="80" startPosition="50" endLine="81" endPosition="48" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="84" startPosition="69" endLine="85" endPosition="57" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="88" startPosition="60" endLine="89" endPosition="142" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="92" startPosition="46" endLine="93" endPosition="40" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="23" startPosition="0" endLine="26" endPosition="3" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
-    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
-    <unitInfo nodeId="7818489619910585461" fileName="Query.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="DeCypher.structure.Query" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="20" startPosition="64" endLine="21" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="START_CLAUSE" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="21" startPosition="58" endLine="22" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="WHERE_CLAUSE" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="22" startPosition="58" endLine="23" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RETURN_CLAUSE" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="23" startPosition="60" endLine="24" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="26" startPosition="28" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="30" startPosition="27" endLine="31" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="34" startPosition="37" endLine="35" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="38" startPosition="39" endLine="39" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="42" startPosition="49" endLine="43" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="46" startPosition="28" endLine="47" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="50" startPosition="38" endLine="51" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="54" startPosition="37" endLine="55" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="58" startPosition="47" endLine="59" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="62" startPosition="39" endLine="63" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="66" startPosition="48" endLine="67" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="70" startPosition="39" endLine="71" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="74" startPosition="48" endLine="75" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="78" startPosition="41" endLine="79" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="82" startPosition="50" endLine="83" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="86" startPosition="41" endLine="87" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="90" startPosition="49" endLine="91" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="94" startPosition="48" endLine="95" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="98" startPosition="50" endLine="99" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="102" startPosition="69" endLine="103" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="106" startPosition="60" endLine="107" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="110" startPosition="46" endLine="111" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="25" startPosition="0" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Query#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStartClause#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setStartClause#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getWhereClause#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="73" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setWhereClause#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getReturnClause#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="81" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setReturnClause#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="85" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="89" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="93" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="97" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="101" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="105" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/Query;" />
+    <nodeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="109" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/Query;" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="26" startPosition="28" endLine="27" endPosition="16" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="30" startPosition="27" endLine="31" endPosition="40" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="34" startPosition="37" endLine="35" endPosition="40" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="38" startPosition="39" endLine="39" endPosition="53" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="42" startPosition="49" endLine="43" endPosition="53" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="46" startPosition="28" endLine="47" endPosition="41" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="50" startPosition="38" endLine="51" endPosition="41" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="54" startPosition="37" endLine="55" endPosition="51" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="58" startPosition="47" endLine="59" endPosition="51" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="62" startPosition="39" endLine="63" endPosition="78" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="66" startPosition="48" endLine="67" endPosition="45" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="70" startPosition="39" endLine="71" endPosition="78" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="74" startPosition="48" endLine="75" endPosition="45" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="78" startPosition="41" endLine="79" endPosition="81" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="82" startPosition="50" endLine="83" endPosition="46" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="86" startPosition="41" endLine="87" endPosition="54" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="90" startPosition="49" endLine="91" endPosition="66" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="94" startPosition="48" endLine="95" endPosition="69" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="98" startPosition="50" endLine="99" endPosition="48" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="102" startPosition="69" endLine="103" endPosition="57" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="106" startPosition="60" endLine="107" endPosition="142" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="110" startPosition="46" endLine="111" endPosition="40" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="25" startPosition="0" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="77" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="85" startPosition="0" endLine="89" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="101" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="105" startPosition="0" endLine="109" endPosition="0" />
+    <scopeInfo nodeId="7818489619910585461" fileName="Query.java" startLine="109" startPosition="0" endLine="113" endPosition="0" />
+    <unitInfo nodeId="7818489619910585461" fileName="Query.java" startLine="15" startPosition="0" endLine="114" endPosition="0" unitName="DeCypher.structure.Query" />
   </root>
   <root nodeId="8211191680715152458">
-    <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="10" startPosition="57" endLine="11" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="10" startPosition="65" endLine="11" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="11" startPosition="79" endLine="12" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ORIGINAL" />
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="14" startPosition="41" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="18" startPosition="40" endLine="19" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="22" startPosition="49" endLine="23" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="18" startPosition="48" endLine="19" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="22" startPosition="57" endLine="23" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="26" startPosition="73" endLine="27" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="30" startPosition="59" endLine="31" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NotWhereExpression#(Ljetbrains/mps/smodel/SNode;)V" />
@@ -331,8 +863,8 @@
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/NotWhereExpression;" />
     <nodeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/NotWhereExpression;" />
     <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="14" startPosition="41" endLine="15" endPosition="16" />
-    <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="18" startPosition="40" endLine="19" endPosition="95" />
-    <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="22" startPosition="49" endLine="23" endPosition="54" />
+    <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="18" startPosition="48" endLine="19" endPosition="111" />
+    <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="22" startPosition="57" endLine="23" endPosition="54" />
     <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="26" startPosition="73" endLine="27" endPosition="168" />
     <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="30" startPosition="59" endLine="31" endPosition="53" />
     <scopeInfo nodeId="8211191680715152458" fileName="NotWhereExpression.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />

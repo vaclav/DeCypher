@@ -14,8 +14,39 @@
     <classNode dependClassName="jetbrains.mps.smodel.Language" />
     <classNode dependClassName="jetbrains.mps.smodel.MPSModuleRepository" />
   </dependency>
+  <dependency className="DeCypher.structure.DistinctReturnTerm" file="DistinctReturnTerm.java">
+    <classNode dependClassName="DeCypher.structure.NodeReturnTerm" />
+    <classNode dependClassName="DeCypher.structure.ReturnTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
   <dependency className="DeCypher.structure.FalseWhereExpression" file="FalseWhereExpression.java">
-    <classNode dependClassName="DeCypher.structure.WhereExpression" />
+    <classNode dependClassName="DeCypher.structure.NodeExpressionWhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.GraphNode" file="GraphNode.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.IValidIdentifier" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.GraphNodeReference" file="GraphNodeReference.java">
+    <classNode dependClassName="DeCypher.structure.GraphNode" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -24,7 +55,36 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="DeCypher.structure.LogicalWhereExpression" file="LogicalWhereExpression.java">
-    <classNode dependClassName="DeCypher.structure.WhereExpression" />
+    <classNode dependClassName="DeCypher.structure.NodeExpressionWhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.NodeExpressionWhereTerm" file="NodeExpressionWhereTerm.java">
+    <classNode dependClassName="DeCypher.structure.NodeReferringWhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.NodeReferringWhereTerm" file="NodeReferringWhereTerm.java">
+    <classNode dependClassName="DeCypher.structure.GraphNodeReference" />
+    <classNode dependClassName="DeCypher.structure.WhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.NodeReturnTerm" file="NodeReturnTerm.java">
+    <classNode dependClassName="DeCypher.structure.GraphNodeReference" />
+    <classNode dependClassName="DeCypher.structure.ReturnTerm" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -33,7 +93,7 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="DeCypher.structure.NotWhereExpression" file="NotWhereExpression.java">
-    <classNode dependClassName="DeCypher.structure.WhereExpression" />
+    <classNode dependClassName="DeCypher.structure.NodeExpressionWhereTerm" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -43,6 +103,48 @@
   </dependency>
   <dependency className="DeCypher.structure.OrWhereExpression" file="OrWhereExpression.java">
     <classNode dependClassName="DeCypher.structure.LogicalWhereExpression" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.PropertyExpressionWhereTerm" file="PropertyExpressionWhereTerm.java">
+    <classNode dependClassName="DeCypher.structure.PropertyReferringWhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.PropertyReference" file="PropertyReference.java">
+    <classNode dependClassName="DeCypher.structure.GraphNode" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.PropertyReferringWhereTerm" file="PropertyReferringWhereTerm.java">
+    <classNode dependClassName="DeCypher.structure.PropertyReference" />
+    <classNode dependClassName="DeCypher.structure.WhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.PropertyReturnTerm" file="PropertyReturnTerm.java">
+    <classNode dependClassName="DeCypher.structure.PropertyReference" />
+    <classNode dependClassName="DeCypher.structure.ReturnTerm" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -64,12 +166,71 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="DeCypher.structure.Query" file="Query.java">
+    <classNode dependClassName="DeCypher.structure.ReturnClause" />
+    <classNode dependClassName="DeCypher.structure.StartClause" />
     <classNode dependClassName="DeCypher.structure.WhereClause" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.ReturnClause" file="ReturnClause.java">
+    <classNode dependClassName="DeCypher.structure.ReturnTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.ReturnTerm" file="ReturnTerm.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.SimpleNodeWhereTerm" file="SimpleNodeWhereTerm.java">
+    <classNode dependClassName="DeCypher.structure.NodeReferringWhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.SimplePropertyWhereTerm" file="SimplePropertyWhereTerm.java">
+    <classNode dependClassName="DeCypher.structure.PropertyReferringWhereTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.StartClause" file="StartClause.java">
+    <classNode dependClassName="DeCypher.structure.StartTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.StartTerm" file="StartTerm.java">
+    <classNode dependClassName="DeCypher.structure.GraphNode" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -85,7 +246,7 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
   </dependency>
   <dependency className="DeCypher.structure.TrueWhereExpression" file="TrueWhereExpression.java">
-    <classNode dependClassName="DeCypher.structure.WhereExpression" />
+    <classNode dependClassName="DeCypher.structure.NodeExpressionWhereTerm" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -94,15 +255,17 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="DeCypher.structure.WhereClause" file="WhereClause.java">
-    <classNode dependClassName="DeCypher.structure.WhereExpression" />
+    <classNode dependClassName="DeCypher.structure.WhereTerm" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
-  <dependency className="DeCypher.structure.WhereExpression" file="WhereExpression.java">
+  <dependency className="DeCypher.structure.WhereTerm" file="WhereTerm.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
