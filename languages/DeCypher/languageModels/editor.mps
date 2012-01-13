@@ -116,7 +116,11 @@
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="6594089058936983643">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="6594089058937004512">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6594089058937004511" />
     </node>
   </root>
   <root id="7818489619910586513">
@@ -320,6 +324,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="6594089058936980511">
         <property name="separatorText" nameId="tpc2.1140524450557" value="," />
+        <property name="separatorLayoutConstraint" nameId="tpc2.1156252885376" value="punctuation" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="89ga.6594089058936980503" />
         <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6594089058936980512" />
       </node>
