@@ -40,7 +40,7 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227616742">
             <property name="name" nameId="tpck.1169194664001" value="FOO" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227616744">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227616744">
             <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4975721382227616745">
               <property name="value" nameId="tpee.1068580320021" value="1" />
             </node>
@@ -53,7 +53,7 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227616748">
             <property name="name" nameId="tpck.1169194664001" value="D" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227617548">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227617548">
             <property name="name" nameId="tpck.1169194664001" value="Ds" />
             <node role="indexQuery" roleId="89ga.4975721382227601730" type="89ga.IndexLookup" typeId="89ga.4975721382227601739" id="4975721382227617550">
               <property name="name" nameId="tpck.1169194664001" value="name" />
@@ -65,7 +65,7 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227617552">
             <property name="name" nameId="tpck.1169194664001" value="n" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227617554">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227617554">
             <property name="name" nameId="tpck.1169194664001" value="ns" />
             <node role="indexQuery" roleId="89ga.4975721382227601730" type="89ga.IndexQuery" typeId="89ga.4975721382227601757" id="4975721382227617556">
               <property name="value" nameId="89ga.4975721382227601758" value="my favorite node" />
@@ -130,7 +130,7 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227655798">
             <property name="name" nameId="tpck.1169194664001" value="BAR" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227655800">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227655800">
             <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4975721382227655801">
               <property name="value" nameId="tpee.1068580320021" value="3" />
             </node>
@@ -140,7 +140,7 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227655803">
             <property name="name" nameId="tpck.1169194664001" value="BAZ" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227655805">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227655805">
             <property name="name" nameId="tpck.1169194664001" value="names" />
             <node role="indexQuery" roleId="89ga.4975721382227601730" type="89ga.IndexQuery" typeId="89ga.4975721382227601757" id="4975721382227661296">
               <property name="value" nameId="89ga.4975721382227601758" value="Joe Smith" />
@@ -193,7 +193,7 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227661298">
             <property name="name" nameId="tpck.1169194664001" value="BAZ" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227661300">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227661300">
             <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4975721382227661301">
               <property name="value" nameId="tpee.1068580320021" value="5" />
             </node>
@@ -203,11 +203,43 @@
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227661303">
             <property name="name" nameId="tpck.1169194664001" value="BAZ2" />
           </node>
-          <node role="initialization" roleId="89ga.4975721382227601704" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227661305">
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227661305">
             <property name="name" nameId="tpck.1169194664001" value="names" />
             <node role="indexQuery" roleId="89ga.4975721382227601730" type="89ga.IndexLookup" typeId="89ga.4975721382227601739" id="4975721382227661307">
               <property name="name" nameId="tpck.1169194664001" value="name" />
               <property name="value" nameId="89ga.4975721382227601744" value="Joe" />
+            </node>
+          </node>
+        </node>
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227699420">
+          <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227699421">
+            <property name="name" nameId="tpck.1169194664001" value="BAAZ" />
+          </node>
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227699423">
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4975721382227699424">
+              <property name="value" nameId="tpee.1068580320021" value="1" />
+            </node>
+          </node>
+        </node>
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.RelationshipStartTerm" typeId="89ga.4975721382227699426" id="4975721382227713641">
+          <node role="relationship" roleId="89ga.4975721382227699428" type="89ga.Relationship" typeId="89ga.4975721382227661309" id="4975721382227713642">
+            <property name="name" nameId="tpck.1169194664001" value="r" />
+          </node>
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="4975721382227713644">
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4975721382227713645">
+              <property name="value" nameId="tpee.1068580320021" value="2" />
+            </node>
+          </node>
+        </node>
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.RelationshipStartTerm" typeId="89ga.4975721382227699426" id="4975721382227713648">
+          <node role="relationship" roleId="89ga.4975721382227699428" type="89ga.Relationship" typeId="89ga.4975721382227661309" id="4975721382227713649">
+            <property name="name" nameId="tpck.1169194664001" value="s" />
+          </node>
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IndexInitialization" typeId="89ga.4975721382227601726" id="4975721382227713651">
+            <property name="name" nameId="tpck.1169194664001" value="rels" />
+            <node role="indexQuery" roleId="89ga.4975721382227601730" type="89ga.IndexLookup" typeId="89ga.4975721382227601739" id="4975721382227713653">
+              <property name="name" nameId="tpck.1169194664001" value="property" />
+              <property name="value" nameId="89ga.4975721382227601744" value="some value" />
             </node>
           </node>
         </node>

@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.AvgReturnRetm", "DeCypher.structure.CollectReturnType", "DeCypher.structure.CountReturnTerm", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.FunctionalReturnTerm", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.IDReturnTerm", "DeCypher.structure.IdInitialization", "DeCypher.structure.IndexInitialization", "DeCypher.structure.IndexLookup", "DeCypher.structure.IndexQoL", "DeCypher.structure.IndexQuery", "DeCypher.structure.Initialization", "DeCypher.structure.LengthReturnTerm", "DeCypher.structure.LimitClause", "DeCypher.structure.LogicalWhereExpression", "DeCypher.structure.MaxReturnTerm", "DeCypher.structure.MinReturnTerm", "DeCypher.structure.NodeExpressionWhereTerm", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NodesReturnTerm", "DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.ReturnClause", "DeCypher.structure.ReturnTerm", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StarReturnTerm", "DeCypher.structure.StartClause", "DeCypher.structure.StartTerm", "DeCypher.structure.SumReturnTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.TypeReturnTerm", "DeCypher.structure.WhereClause", "DeCypher.structure.WhereTerm"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.AvgReturnRetm", "DeCypher.structure.CollectReturnType", "DeCypher.structure.CountReturnTerm", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.FunctionalReturnTerm", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.IDReturnTerm", "DeCypher.structure.IdInitialization", "DeCypher.structure.IndexInitialization", "DeCypher.structure.IndexLookup", "DeCypher.structure.IndexQoL", "DeCypher.structure.IndexQuery", "DeCypher.structure.Initialization", "DeCypher.structure.LengthReturnTerm", "DeCypher.structure.LimitClause", "DeCypher.structure.LogicalWhereExpression", "DeCypher.structure.MaxReturnTerm", "DeCypher.structure.MinReturnTerm", "DeCypher.structure.NodeExpressionWhereTerm", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NodeStartTerm", "DeCypher.structure.NodesReturnTerm", "DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.Relationship", "DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.RelationshipStartTerm", "DeCypher.structure.ReturnClause", "DeCypher.structure.ReturnTerm", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StarReturnTerm", "DeCypher.structure.StartClause", "DeCypher.structure.StartTerm", "DeCypher.structure.SumReturnTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.TypeReturnTerm", "DeCypher.structure.WhereClause", "DeCypher.structure.WhereTerm"};
 
   public StructureAspectDescriptor() {
   }
@@ -64,50 +64,56 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 23:
         return new CompiledConceptDescriptor("DeCypher.structure.NodeReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
       case 24:
-        return new CompiledConceptDescriptor("DeCypher.structure.NodesReturnTerm", "DeCypher.structure.FunctionalReturnTerm", false, new String[]{"DeCypher.structure.FunctionalReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.NodeStartTerm", "DeCypher.structure.StartTerm", false, new String[]{"DeCypher.structure.StartTerm"}, new String[]{}, new String[]{});
       case 25:
-        return new CompiledConceptDescriptor("DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.NodesReturnTerm", "DeCypher.structure.FunctionalReturnTerm", false, new String[]{"DeCypher.structure.FunctionalReturnTerm"}, new String[]{}, new String[]{});
       case 26:
-        return new CompiledConceptDescriptor("DeCypher.structure.NotWhereExpression", "DeCypher.structure.NodeExpressionWhereTerm", false, new String[]{"DeCypher.structure.NodeExpressionWhereTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
       case 27:
-        return new CompiledConceptDescriptor("DeCypher.structure.OrWhereExpression", "DeCypher.structure.LogicalWhereExpression", false, new String[]{"DeCypher.structure.LogicalWhereExpression"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.NotWhereExpression", "DeCypher.structure.NodeExpressionWhereTerm", false, new String[]{"DeCypher.structure.NodeExpressionWhereTerm"}, new String[]{}, new String[]{});
       case 28:
-        return new CompiledConceptDescriptor("DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReferringWhereTerm", false, new String[]{"DeCypher.structure.PropertyReferringWhereTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.OrWhereExpression", "DeCypher.structure.LogicalWhereExpression", false, new String[]{"DeCypher.structure.LogicalWhereExpression"}, new String[]{}, new String[]{});
       case 29:
-        return new CompiledConceptDescriptor("DeCypher.structure.PropertyReference", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"graphNode"});
+        return new CompiledConceptDescriptor("DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReferringWhereTerm", false, new String[]{"DeCypher.structure.PropertyReferringWhereTerm"}, new String[]{}, new String[]{});
       case 30:
-        return new CompiledConceptDescriptor("DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.WhereTerm", false, new String[]{"DeCypher.structure.WhereTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.PropertyReference", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"graphNode"});
       case 31:
-        return new CompiledConceptDescriptor("DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.WhereTerm", false, new String[]{"DeCypher.structure.WhereTerm"}, new String[]{}, new String[]{});
       case 32:
-        return new CompiledConceptDescriptor("DeCypher.structure.Queries", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
       case 33:
-        return new CompiledConceptDescriptor("DeCypher.structure.Query", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.Queries", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 34:
-        return new CompiledConceptDescriptor("DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.Query", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 35:
-        return new CompiledConceptDescriptor("DeCypher.structure.ReturnClause", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.Relationship", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IValidIdentifier"}, new String[]{}, new String[]{});
       case 36:
-        return new CompiledConceptDescriptor("DeCypher.structure.ReturnTerm", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
       case 37:
-        return new CompiledConceptDescriptor("DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.NodeReferringWhereTerm", false, new String[]{"DeCypher.structure.NodeReferringWhereTerm"}, new String[]{"value"}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.RelationshipStartTerm", "DeCypher.structure.StartTerm", false, new String[]{"DeCypher.structure.StartTerm"}, new String[]{}, new String[]{});
       case 38:
-        return new CompiledConceptDescriptor("DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.PropertyReferringWhereTerm", false, new String[]{"DeCypher.structure.PropertyReferringWhereTerm"}, new String[]{"value"}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.ReturnClause", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 39:
-        return new CompiledConceptDescriptor("DeCypher.structure.StarReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.ReturnTerm", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 40:
-        return new CompiledConceptDescriptor("DeCypher.structure.StartClause", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.NodeReferringWhereTerm", false, new String[]{"DeCypher.structure.NodeReferringWhereTerm"}, new String[]{"value"}, new String[]{});
       case 41:
-        return new CompiledConceptDescriptor("DeCypher.structure.StartTerm", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.PropertyReferringWhereTerm", false, new String[]{"DeCypher.structure.PropertyReferringWhereTerm"}, new String[]{"value"}, new String[]{});
       case 42:
-        return new CompiledConceptDescriptor("DeCypher.structure.SumReturnTerm", "DeCypher.structure.FunctionalReturnTerm", false, new String[]{"DeCypher.structure.FunctionalReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.StarReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
       case 43:
-        return new CompiledConceptDescriptor("DeCypher.structure.TrueWhereExpression", "DeCypher.structure.NodeExpressionWhereTerm", false, new String[]{"DeCypher.structure.NodeExpressionWhereTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.StartClause", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 44:
-        return new CompiledConceptDescriptor("DeCypher.structure.TypeReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.StartTerm", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 45:
-        return new CompiledConceptDescriptor("DeCypher.structure.WhereClause", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("DeCypher.structure.SumReturnTerm", "DeCypher.structure.FunctionalReturnTerm", false, new String[]{"DeCypher.structure.FunctionalReturnTerm"}, new String[]{}, new String[]{});
       case 46:
+        return new CompiledConceptDescriptor("DeCypher.structure.TrueWhereExpression", "DeCypher.structure.NodeExpressionWhereTerm", false, new String[]{"DeCypher.structure.NodeExpressionWhereTerm"}, new String[]{}, new String[]{});
+      case 47:
+        return new CompiledConceptDescriptor("DeCypher.structure.TypeReturnTerm", "DeCypher.structure.ReturnTerm", false, new String[]{"DeCypher.structure.ReturnTerm"}, new String[]{}, new String[]{});
+      case 48:
+        return new CompiledConceptDescriptor("DeCypher.structure.WhereClause", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+      case 49:
         return new CompiledConceptDescriptor("DeCypher.structure.WhereTerm", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);

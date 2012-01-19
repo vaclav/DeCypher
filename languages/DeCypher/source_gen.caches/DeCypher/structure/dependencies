@@ -239,6 +239,16 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
+  <dependency className="DeCypher.structure.NodeStartTerm" file="NodeStartTerm.java">
+    <classNode dependClassName="DeCypher.structure.GraphNode" />
+    <classNode dependClassName="DeCypher.structure.StartTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
   <dependency className="DeCypher.structure.NodesReturnTerm" file="NodesReturnTerm.java">
     <classNode dependClassName="DeCypher.structure.FunctionalReturnTerm" />
     <classNode dependClassName="java.lang.String" />
@@ -347,8 +357,30 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
+  <dependency className="DeCypher.structure.Relationship" file="Relationship.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.IValidIdentifier" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
   <dependency className="DeCypher.structure.RelationshipReturnTerm" file="RelationshipReturnTerm.java">
     <classNode dependClassName="DeCypher.structure.ReturnTerm" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="DeCypher.structure.RelationshipStartTerm" file="RelationshipStartTerm.java">
+    <classNode dependClassName="DeCypher.structure.Relationship" />
+    <classNode dependClassName="DeCypher.structure.StartTerm" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
@@ -414,7 +446,6 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="DeCypher.structure.StartTerm" file="StartTerm.java">
-    <classNode dependClassName="DeCypher.structure.GraphNode" />
     <classNode dependClassName="DeCypher.structure.Initialization" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="4tdn6xs4aesy8l3it3uafv3nquk3vu6">
+<dependencies version="2" modelHash="6hshsl66pge3mw20ssejplmt3m4akfr">
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.intentions(MPS.Classpath/jetbrains.mps.intentions@java_stub)" />
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" />
@@ -15,12 +15,12 @@
   <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c89590354(jetbrains.mps.lang.intentions.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" hash="5c1j2m4tcoou0veuynwgd4w2ajxixne" />
+  <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" hash="-dhvy7fur6hbqbqa5k6k93kpdtqidza6" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:d64ba0fe-173d-44e2-ab7b-bde40d7e9b7e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.pre@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="-9790uvxhlfqwze3m9bpegm23jtxjqlz" dependsOnNodes="true">
+  <common hash="-4bj4ih9zsz5ifmm9xaztrub4bakq56s" dependsOnNodes="true">
     <dep root="4975721382227553508" />
     <dep root="4975721382227554394" />
     <dep root="4975721382227600277" />

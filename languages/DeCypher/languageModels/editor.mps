@@ -122,6 +122,10 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4975721382227661312">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="89ga.4975721382227661309" resolveInfo="Relationship" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4975721382227699430">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="start" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="89ga.4975721382227699426" resolveInfo="RelationshipStartTerm" />
+    </node>
   </roots>
   <root id="7818489619910585464">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7818489619910585466">
@@ -359,7 +363,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="node" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4975721382227601708">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="89ga.4975721382227601704" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="89ga.4975721382227699429" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2541834658517078147" />
     </node>
@@ -556,6 +560,23 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4975721382227661317">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
       </node>
+    </node>
+  </root>
+  <root id="4975721382227699430">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4975721382227699432">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4975721382227699435">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="89ga.4975721382227699428" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4975721382227699437">
+        <property name="text" nameId="tpc2.1073389577007" value="=" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4975721382227699439">
+        <property name="text" nameId="tpc2.1073389577007" value="relationship" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4975721382227699441">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="89ga.4975721382227699429" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4975721382227699434" />
     </node>
   </root>
 </model>

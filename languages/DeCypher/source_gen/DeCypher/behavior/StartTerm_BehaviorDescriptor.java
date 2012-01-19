@@ -4,7 +4,7 @@ package DeCypher.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class StartTerm_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+public abstract class StartTerm_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public StartTerm_BehaviorDescriptor() {
   }
 

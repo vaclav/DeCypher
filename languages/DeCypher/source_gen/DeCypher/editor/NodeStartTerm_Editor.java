@@ -13,36 +13,36 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class StartTerm_Editor extends DefaultNodeEditor {
+public class NodeStartTerm_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_q255lb_a(editorContext, node);
+    return this.createCollection_3c0lgg_a(editorContext, node);
   }
 
-  private EditorCell createCollection_q255lb_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_3c0lgg_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_q255lb_a");
-    editorCell.addEditorCell(this.createRefNode_q255lb_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_q255lb_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_q255lb_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_q255lb_d0(editorContext, node));
+    editorCell.setCellId("Collection_3c0lgg_a");
+    editorCell.addEditorCell(this.createRefNode_3c0lgg_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3c0lgg_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3c0lgg_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_3c0lgg_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_q255lb_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_3c0lgg_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
-    editorCell.setCellId("Constant_q255lb_b0");
+    editorCell.setCellId("Constant_3c0lgg_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_q255lb_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_3c0lgg_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "node");
-    editorCell.setCellId("Constant_q255lb_c0");
+    editorCell.setCellId("Constant_3c0lgg_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_q255lb_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_3c0lgg_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("graphNode");
     provider.setNoTargetText("<no graphNode>");
@@ -59,7 +59,7 @@ public class StartTerm_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_q255lb_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_3c0lgg_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("initialization");
     provider.setNoTargetText("<no initialization>");
