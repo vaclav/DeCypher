@@ -84,5 +84,11 @@
     </dependencies>
     <rename id="89ga.2541834658516916634" type="CHILD" from="expression" to="expression1" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="13" />
+    </dependencies>
+    <rename id="89ga.4975721382227601709" type="CONCEPT" from="IdInitialixation" to="IdInitialization" />
+  </StructureModification>
 </history>
 

@@ -7,85 +7,93 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.AvgReturnRetm", "DeCypher.structure.CollectReturnType", "DeCypher.structure.CountReturnTerm", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.IDReturnTerm", "DeCypher.structure.LengthReturnTerm", "DeCypher.structure.LimitClause", "DeCypher.structure.MaxReturnTerm", "DeCypher.structure.MinReturnTerm", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NodesReturnTerm", "DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.ReturnClause", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StarReturnTerm", "DeCypher.structure.StartClause", "DeCypher.structure.StartTerm", "DeCypher.structure.SumReturnTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.TypeReturnTerm", "DeCypher.structure.WhereClause"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.AvgReturnRetm", "DeCypher.structure.CollectReturnType", "DeCypher.structure.CountReturnTerm", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.IDReturnTerm", "DeCypher.structure.IdInitialization", "DeCypher.structure.IndexInitialization", "DeCypher.structure.IndexLookup", "DeCypher.structure.IndexQuery", "DeCypher.structure.LengthReturnTerm", "DeCypher.structure.LimitClause", "DeCypher.structure.MaxReturnTerm", "DeCypher.structure.MinReturnTerm", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NodesReturnTerm", "DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.ReturnClause", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StarReturnTerm", "DeCypher.structure.StartClause", "DeCypher.structure.StartTerm", "DeCypher.structure.SumReturnTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.TypeReturnTerm", "DeCypher.structure.WhereClause"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 23:
+      case 27:
         return new Queries_BehaviorDescriptor();
-      case 24:
+      case 28:
         return new Query_BehaviorDescriptor();
-      case 35:
+      case 39:
         return new WhereClause_BehaviorDescriptor();
       case 0:
         return new AndWhereExpression_BehaviorDescriptor();
-      case 18:
+      case 22:
         return new OrWhereExpression_BehaviorDescriptor();
-      case 33:
+      case 37:
         return new TrueWhereExpression_BehaviorDescriptor();
       case 5:
         return new FalseWhereExpression_BehaviorDescriptor();
-      case 17:
+      case 21:
         return new NotWhereExpression_BehaviorDescriptor();
-      case 27:
+      case 31:
         return new SimpleNodeWhereTerm_BehaviorDescriptor();
       case 6:
         return new GraphNode_BehaviorDescriptor();
       case 7:
         return new GraphNodeReference_BehaviorDescriptor();
-      case 20:
+      case 24:
         return new PropertyReference_BehaviorDescriptor();
-      case 13:
+      case 17:
         return new NodeReferringWhereTerm_BehaviorDescriptor();
-      case 21:
+      case 25:
         return new PropertyReferringWhereTerm_BehaviorDescriptor();
-      case 19:
+      case 23:
         return new PropertyExpressionWhereTerm_BehaviorDescriptor();
-      case 28:
+      case 32:
         return new SimplePropertyWhereTerm_BehaviorDescriptor();
-      case 30:
+      case 34:
         return new StartClause_BehaviorDescriptor();
-      case 31:
+      case 35:
         return new StartTerm_BehaviorDescriptor();
-      case 26:
+      case 30:
         return new ReturnClause_BehaviorDescriptor();
-      case 14:
+      case 18:
         return new NodeReturnTerm_BehaviorDescriptor();
-      case 22:
+      case 26:
         return new PropertyReturnTerm_BehaviorDescriptor();
       case 4:
         return new DistinctReturnTerm_BehaviorDescriptor();
-      case 32:
+      case 36:
         return new SumReturnTerm_BehaviorDescriptor();
       case 3:
         return new CountReturnTerm_BehaviorDescriptor();
       case 1:
         return new AvgReturnRetm_BehaviorDescriptor();
-      case 12:
+      case 16:
         return new MinReturnTerm_BehaviorDescriptor();
-      case 11:
+      case 15:
         return new MaxReturnTerm_BehaviorDescriptor();
       case 2:
         return new CollectReturnType_BehaviorDescriptor();
-      case 34:
+      case 38:
         return new TypeReturnTerm_BehaviorDescriptor();
-      case 29:
+      case 33:
         return new StarReturnTerm_BehaviorDescriptor();
-      case 16:
+      case 20:
         return new NonNullReturnTerm_BehaviorDescriptor();
-      case 10:
+      case 14:
         return new LimitClause_BehaviorDescriptor();
-      case 9:
+      case 13:
         return new LengthReturnTerm_BehaviorDescriptor();
       case 8:
         return new IDReturnTerm_BehaviorDescriptor();
-      case 15:
+      case 19:
         return new NodesReturnTerm_BehaviorDescriptor();
-      case 25:
+      case 29:
         return new RelationshipReturnTerm_BehaviorDescriptor();
+      case 9:
+        return new IdInitialization_BehaviorDescriptor();
+      case 10:
+        return new IndexInitialization_BehaviorDescriptor();
+      case 11:
+        return new IndexLookup_BehaviorDescriptor();
+      case 12:
+        return new IndexQuery_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

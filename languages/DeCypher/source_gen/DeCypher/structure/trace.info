@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="DeCypher_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.structure.DeCypher_Language" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="105" endPosition="0" unitName="DeCypher.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="117" endPosition="0" unitName="DeCypher.structure.StructureAspectDescriptor" />
   <root nodeId="2541834658516763898">
     <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="11" startPosition="44" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="14" startPosition="32" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -354,27 +354,36 @@
   <root nodeId="2541834658517078141">
     <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="11" startPosition="44" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="12" startPosition="70" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="GRAPH_NODE" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="15" startPosition="32" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="19" startPosition="35" endLine="20" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="23" startPosition="44" endLine="24" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="27" startPosition="64" endLine="28" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="31" startPosition="50" endLine="32" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="14" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StartTerm#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraphNode#()Ljetbrains/mps/smodel/INodeAdapter;" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setGraphNode#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/StartTerm;" />
-    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/StartTerm;" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="15" startPosition="32" endLine="16" endPosition="16" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="19" startPosition="35" endLine="20" endPosition="76" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="23" startPosition="44" endLine="24" endPosition="47" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="27" startPosition="64" endLine="28" endPosition="150" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="31" startPosition="50" endLine="32" endPosition="44" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <unitInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="DeCypher.structure.StartTerm" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="13" startPosition="54" endLine="14" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INITIALIZATION" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="16" startPosition="32" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="20" startPosition="35" endLine="21" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="24" startPosition="44" endLine="25" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="28" startPosition="45" endLine="29" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="32" startPosition="54" endLine="33" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="36" startPosition="64" endLine="37" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="40" startPosition="50" endLine="41" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StartTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraphNode#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setGraphNode#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getInitialization#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setInitialization#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/StartTerm;" />
+    <nodeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/StartTerm;" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="16" startPosition="32" endLine="17" endPosition="16" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="20" startPosition="35" endLine="21" endPosition="76" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="24" startPosition="44" endLine="25" endPosition="47" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="28" startPosition="45" endLine="29" endPosition="90" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="32" startPosition="54" endLine="33" endPosition="51" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="36" startPosition="64" endLine="37" endPosition="150" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="40" startPosition="50" endLine="41" endPosition="44" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <unitInfo nodeId="2541834658517078141" fileName="StartTerm.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="DeCypher.structure.StartTerm" />
   </root>
   <root nodeId="3523181383831908962">
     <nodeInfo nodeId="3523181383831908962" fileName="WhereClause.java" startLine="13" startPosition="46" endLine="14" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -850,6 +859,264 @@
     <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
     <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
     <unitInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.RelationshipReturnTerm" />
+  </root>
+  <root nodeId="4975721382227601705">
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="11" startPosition="49" endLine="12" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="14" startPosition="37" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="18" startPosition="69" endLine="19" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="22" startPosition="55" endLine="23" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Initialization#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/Initialization;" />
+    <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/Initialization;" />
+    <scopeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="14" startPosition="37" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="18" startPosition="69" endLine="19" endPosition="160" />
+    <scopeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="22" startPosition="55" endLine="23" endPosition="49" />
+    <scopeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <unitInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.structure.Initialization" />
+  </root>
+  <root nodeId="4975721382227601709">
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="13" startPosition="54" endLine="14" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="14" startPosition="77" endLine="15" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="IDS" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="17" startPosition="39" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="21" startPosition="30" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="25" startPosition="44" endLine="26" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="29" startPosition="43" endLine="30" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="33" startPosition="44" endLine="34" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="37" startPosition="69" endLine="38" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="41" startPosition="71" endLine="42" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="45" startPosition="57" endLine="46" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IdInitialization#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIdsesCount#()I" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="idses#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIdses#()Ljava/util/List;" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addIds#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertIds#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/IdInitialization;" />
+    <nodeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/IdInitialization;" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="17" startPosition="39" endLine="18" endPosition="16" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="21" startPosition="30" endLine="22" endPosition="52" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="25" startPosition="44" endLine="26" endPosition="70" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="29" startPosition="43" endLine="30" endPosition="73" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="33" startPosition="44" endLine="34" endPosition="46" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="37" startPosition="69" endLine="38" endPosition="55" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="41" startPosition="71" endLine="42" endPosition="164" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="45" startPosition="57" endLine="46" endPosition="51" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <unitInfo nodeId="4975721382227601709" fileName="IdInitialization.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="DeCypher.structure.IdInitialization" />
+  </root>
+  <root nodeId="4975721382227601726">
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="14" startPosition="82" endLine="15" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="15" startPosition="80" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="17" startPosition="68" endLine="18" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="18" startPosition="45" endLine="19" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="19" startPosition="64" endLine="20" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INDEX_QUERY" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="20" startPosition="56" endLine="21" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="23" startPosition="42" endLine="24" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="27" startPosition="27" endLine="28" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="31" startPosition="37" endLine="32" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="35" startPosition="39" endLine="36" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="39" startPosition="49" endLine="40" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="43" startPosition="28" endLine="44" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="47" startPosition="38" endLine="48" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="51" startPosition="37" endLine="52" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="55" startPosition="47" endLine="56" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="59" startPosition="35" endLine="60" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="63" startPosition="44" endLine="64" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="67" startPosition="41" endLine="68" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="71" startPosition="49" endLine="72" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="75" startPosition="48" endLine="76" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="79" startPosition="50" endLine="80" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="83" startPosition="69" endLine="84" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="87" startPosition="74" endLine="88" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="91" startPosition="60" endLine="92" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="22" startPosition="0" endLine="25" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IndexInitialization#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIndexQuery#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setIndexQuery#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="66" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="70" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="78" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="86" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/IndexInitialization;" />
+    <nodeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/IndexInitialization;" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="23" startPosition="42" endLine="24" endPosition="16" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="27" startPosition="27" endLine="28" endPosition="54" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="31" startPosition="37" endLine="32" endPosition="54" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="35" startPosition="39" endLine="36" endPosition="67" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="39" startPosition="49" endLine="40" endPosition="67" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="43" startPosition="28" endLine="44" endPosition="55" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="47" startPosition="38" endLine="48" endPosition="55" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="51" startPosition="37" endLine="52" endPosition="65" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="55" startPosition="47" endLine="56" endPosition="65" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="59" startPosition="35" endLine="60" endPosition="85" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="63" startPosition="44" endLine="64" endPosition="58" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="67" startPosition="41" endLine="68" endPosition="68" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="71" startPosition="49" endLine="72" endPosition="80" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="75" startPosition="48" endLine="76" endPosition="83" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="79" startPosition="50" endLine="80" endPosition="62" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="83" startPosition="69" endLine="84" endPosition="71" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="87" startPosition="74" endLine="88" endPosition="170" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="91" startPosition="60" endLine="92" endPosition="54" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <unitInfo nodeId="4975721382227601726" fileName="IndexInitialization.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="DeCypher.structure.IndexInitialization" />
+  </root>
+  <root nodeId="4975721382227601728">
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="11" startPosition="43" endLine="12" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="14" startPosition="31" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="18" startPosition="63" endLine="19" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="22" startPosition="49" endLine="23" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IndexQoL#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/IndexQoL;" />
+    <nodeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/IndexQoL;" />
+    <scopeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="14" startPosition="31" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="18" startPosition="63" endLine="19" endPosition="148" />
+    <scopeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="22" startPosition="49" endLine="23" endPosition="43" />
+    <scopeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <unitInfo nodeId="4975721382227601728" fileName="IndexQoL.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="DeCypher.structure.IndexQoL" />
+  </root>
+  <root nodeId="4975721382227601739">
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="14" startPosition="68" endLine="15" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="15" startPosition="72" endLine="16" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="16" startPosition="45" endLine="17" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="17" startPosition="43" endLine="18" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="18" startPosition="68" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="19" startPosition="45" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="20" startPosition="64" endLine="21" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="23" startPosition="34" endLine="24" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="27" startPosition="28" endLine="28" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="31" startPosition="38" endLine="32" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="35" startPosition="27" endLine="36" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="39" startPosition="37" endLine="40" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="43" startPosition="39" endLine="44" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="47" startPosition="49" endLine="48" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="51" startPosition="28" endLine="52" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="55" startPosition="38" endLine="56" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="59" startPosition="37" endLine="60" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="63" startPosition="47" endLine="64" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="67" startPosition="41" endLine="68" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="71" startPosition="49" endLine="72" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="75" startPosition="48" endLine="76" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="79" startPosition="50" endLine="80" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="83" startPosition="69" endLine="84" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="87" startPosition="66" endLine="88" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="91" startPosition="52" endLine="92" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="22" startPosition="0" endLine="25" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IndexLookup#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setValue#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="66" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="70" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="78" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="86" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/IndexLookup;" />
+    <nodeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/IndexLookup;" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="23" startPosition="34" endLine="24" endPosition="16" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="27" startPosition="28" endLine="28" endPosition="47" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="31" startPosition="38" endLine="32" endPosition="47" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="35" startPosition="27" endLine="36" endPosition="46" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="39" startPosition="37" endLine="40" endPosition="46" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="43" startPosition="39" endLine="44" endPosition="59" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="47" startPosition="49" endLine="48" endPosition="59" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="51" startPosition="28" endLine="52" endPosition="47" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="55" startPosition="38" endLine="56" endPosition="47" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="59" startPosition="37" endLine="60" endPosition="57" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="63" startPosition="47" endLine="64" endPosition="57" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="67" startPosition="41" endLine="68" endPosition="60" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="71" startPosition="49" endLine="72" endPosition="72" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="75" startPosition="48" endLine="76" endPosition="75" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="79" startPosition="50" endLine="80" endPosition="54" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="83" startPosition="69" endLine="84" endPosition="63" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="87" startPosition="66" endLine="88" endPosition="154" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="91" startPosition="52" endLine="92" endPosition="46" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <unitInfo nodeId="4975721382227601739" fileName="IndexLookup.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="DeCypher.structure.IndexLookup" />
+  </root>
+  <root nodeId="4975721382227601757">
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="10" startPosition="42" endLine="11" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="11" startPosition="71" endLine="12" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="14" startPosition="33" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="18" startPosition="28" endLine="19" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="22" startPosition="38" endLine="23" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="26" startPosition="65" endLine="27" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="30" startPosition="51" endLine="31" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IndexQuery#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setValue#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/IndexQuery;" />
+    <nodeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/IndexQuery;" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="14" startPosition="33" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="18" startPosition="28" endLine="19" endPosition="46" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="22" startPosition="38" endLine="23" endPosition="46" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="26" startPosition="65" endLine="27" endPosition="152" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="30" startPosition="51" endLine="31" endPosition="45" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="4975721382227601757" fileName="IndexQuery.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.IndexQuery" />
   </root>
   <root nodeId="6594089058936980500">
     <nodeInfo nodeId="6594089058936980500" fileName="ReturnClause.java" startLine="13" startPosition="47" endLine="14" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />

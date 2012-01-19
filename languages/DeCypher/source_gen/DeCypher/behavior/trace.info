@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="IndexQuery_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.IndexQuery_BehaviorDescriptor" />
+  <unitInfo fileName="IdInitialization_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.IdInitialization_BehaviorDescriptor" />
   <unitInfo fileName="RelationshipReturnTerm_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" />
   <unitInfo fileName="NodesReturnTerm_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.NodesReturnTerm_BehaviorDescriptor" />
   <unitInfo fileName="IDReturnTerm_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.IDReturnTerm_BehaviorDescriptor" />
@@ -28,6 +30,8 @@
   <unitInfo fileName="AndWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.AndWhereExpression_BehaviorDescriptor" />
   <unitInfo fileName="LogicalWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.LogicalWhereExpression_BehaviorDescriptor" />
   <unitInfo fileName="NodeExpressionWhereTerm_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.NodeExpressionWhereTerm_BehaviorDescriptor" />
+  <unitInfo fileName="IndexQoL_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.IndexQoL_BehaviorDescriptor" />
+  <unitInfo fileName="Initialization_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.Initialization_BehaviorDescriptor" />
   <unitInfo fileName="LimitClause_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.LimitClause_BehaviorDescriptor" />
   <unitInfo fileName="ReturnTerm_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
   <unitInfo fileName="ReturnClause_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.ReturnClause_BehaviorDescriptor" />
@@ -36,12 +40,14 @@
   <unitInfo fileName="GraphNodeReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.GraphNodeReference_BehaviorDescriptor" />
   <unitInfo fileName="WhereTerm_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.WhereTerm_BehaviorDescriptor" />
   <unitInfo fileName="WhereClause_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.behavior.WhereClause_BehaviorDescriptor" />
+  <unitInfo fileName="IndexLookup_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="DeCypher.behavior.IndexLookup_BehaviorDescriptor" />
+  <unitInfo fileName="IndexInitialization_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="DeCypher.behavior.IndexInitialization_BehaviorDescriptor" />
   <unitInfo fileName="FunctionalReturnTerm_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
   <unitInfo fileName="GraphNode_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.GraphNode_BehaviorDescriptor" />
   <unitInfo fileName="Query_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Query_BehaviorDescriptor" />
   <unitInfo fileName="Queries_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Queries_BehaviorDescriptor" />
   <unitInfo fileName="PropertyReference_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="DeCypher.behavior.PropertyReference_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="94" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="102" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
   <root nodeId="6594089058936598868">
     <nodeInfo nodeId="6594089058936630679" fileName="PropertyReference_Behavior.java" startLine="13" startPosition="78" endLine="14" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6594089058936598868" fileName="PropertyReference_Behavior.java" startLine="9" startPosition="41" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />

@@ -11,6 +11,7 @@ import jetbrains.mps.project.GlobalScope;
 public class StartTerm extends BaseConcept {
   public static final String concept = "DeCypher.structure.StartTerm";
   public static final String GRAPH_NODE = "graphNode";
+  public static final String INITIALIZATION = "initialization";
 
   public StartTerm(SNode node) {
     super(node);
@@ -22,6 +23,14 @@ public class StartTerm extends BaseConcept {
 
   public void setGraphNode(GraphNode node) {
     super.setChild(StartTerm.GRAPH_NODE, node);
+  }
+
+  public Initialization getInitialization() {
+    return (Initialization) this.getChild(Initialization.class, StartTerm.INITIALIZATION);
+  }
+
+  public void setInitialization(Initialization node) {
+    super.setChild(StartTerm.INITIALIZATION, node);
   }
 
   public static StartTerm newInstance(SModel sm, boolean init) {
