@@ -44,6 +44,7 @@
     <classNode dependClassName="DeCypher.behavior.Queries_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Query_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.RelationshipStartTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Relationship_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.ReturnClause_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.SimpleNodeWhereTerm_BehaviorDescriptor" />
@@ -295,6 +296,12 @@
   </dependency>
   <dependency className="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" file="RelationshipReturnTerm_BehaviorDescriptor.java">
     <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.RelationshipStartTerm_BehaviorDescriptor" file="RelationshipStartTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.StartTerm_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
