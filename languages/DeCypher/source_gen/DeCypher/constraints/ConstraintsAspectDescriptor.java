@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"DeCypher.structure.GraphNodeReference", "DeCypher.structure.PropertyReference"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"DeCypher.structure.GraphNodeReference", "DeCypher.structure.LimitClause", "DeCypher.structure.PropertyReference"};
 
   public ConstraintsAspectDescriptor() {
   }
@@ -16,8 +16,10 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
       case 0:
         return new GraphNodeReference_Constraints();
-      case 1:
+      case 2:
         return new PropertyReference_Constraints();
+      case 1:
+        return new LimitClause_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);

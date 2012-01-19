@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="DeCypher.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="DeCypher.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="2541834658517101018">
     <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="22" startPosition="79" endLine="23" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_noh95_a0a1a0a0a1a0b0a1a0" />
     <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="25" startPosition="43" endLine="26" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -108,6 +108,31 @@
     <unitInfo nodeId="2541834658517133383" fileName="PropertyReference_Constraints.java" startLine="63" startPosition="19" endLine="82" endPosition="9" unitName="DeCypher.constraints.PropertyReference_Constraints$3" />
     <unitInfo nodeId="2541834658517133383" fileName="PropertyReference_Constraints.java" startLine="54" startPosition="36" endLine="84" endPosition="5" unitName="DeCypher.constraints.PropertyReference_Constraints$2" />
     <unitInfo nodeId="2541834658517133383" fileName="PropertyReference_Constraints.java" startLine="26" startPosition="0" endLine="88" endPosition="0" unitName="DeCypher.constraints.PropertyReference_Constraints" />
+  </root>
+  <root nodeId="4975721382227600849">
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="15" startPosition="36" endLine="16" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="20" startPosition="82" endLine="21" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="24" startPosition="40" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="29" startPosition="84" endLine="30" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="30" startPosition="39" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227600853" fileName="LimitClause_Constraints.java" startLine="30" startPosition="39" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="33" startPosition="7" endLine="34" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="14" startPosition="72" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LimitClause_Constraints#()V" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="22" startPosition="84" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnValidator#()Z" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="27" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validateValue#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="21" startPosition="74" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="18" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultProperties#()Ljava/util/Map;" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="15" startPosition="36" endLine="16" endPosition="44" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="24" startPosition="40" endLine="25" endPosition="20" />
+    <scopeInfo nodeId="4975721382227600852" fileName="LimitClause_Constraints.java" startLine="30" startPosition="39" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="29" startPosition="84" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="14" startPosition="72" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="22" startPosition="84" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="27" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="20" startPosition="82" endLine="34" endPosition="22" />
+    <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="18" startPosition="0" endLine="36" endPosition="0" />
+    <unitInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="22" startPosition="33" endLine="33" endPosition="5" unitName="DeCypher.constraints.LimitClause_Constraints$1" />
+    <unitInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="DeCypher.constraints.LimitClause_Constraints" />
   </root>
 </debugInfo>
 

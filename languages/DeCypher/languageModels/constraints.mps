@@ -19,6 +19,9 @@
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="2541834658517133383">
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="89ga.2541834658517027313" resolveInfo="PropertyReference" />
     </node>
+    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="4975721382227600849">
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="89ga.4975721382227574148" resolveInfo="LimitClause" />
+    </node>
   </roots>
   <root id="2541834658517101018">
     <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="2541834658517101019">
@@ -251,6 +254,23 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2541834658517141544">
             <node role="expression" roleId="tpee.1068581517676" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2541834658517141546">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2541834658517141435" resolveInfo="graphNodes" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="4975721382227600849">
+    <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="4975721382227600850">
+      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="89ga.4975721382227574158" resolveInfo="number" />
+      <node role="propertyValidator" roleId="tp1t.1212097481299" type="tp1t.ConstraintFunction_PropertyValidator" typeId="tp1t.1212096972063" id="4975721382227600851">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4975721382227600852">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4975721382227600853">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="4975721382227601278">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="4975721382227601279" />
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4975721382227601280">
+                <property name="value" nameId="tpee.1068580320021" value="0" />
+              </node>
             </node>
           </node>
         </node>

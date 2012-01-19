@@ -115,7 +115,7 @@
         </node>
       </node>
       <node role="limitClause" roleId="89ga.4975721382227574147" type="89ga.LimitClause" typeId="89ga.4975721382227574148" id="4975721382227587098">
-        <property name="number" nameId="89ga.4975721382227574158" value="10" />
+        <property name="number" nameId="89ga.4975721382227574158" value="20" />
       </node>
     </node>
     <node role="queries" roleId="89ga.7818489619910585463" type="89ga.Query" typeId="89ga.7818489619910585461" id="7818489619910589278">

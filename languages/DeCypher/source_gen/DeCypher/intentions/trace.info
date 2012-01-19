@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="DeCypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="DeCypher.intentions.IntentionsDescriptor" />
   <root nodeId="4975721382227553508">
     <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -83,6 +83,51 @@
     <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
     <unitInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="DeCypher.intentions.ExcludeNullValues_Intention" />
+  </root>
+  <root nodeId="4975721382227600277">
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600296" fileName="MakeUnlimited_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="36" startPosition="132" endLine="37" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="38" startPosition="5" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600285" fileName="MakeUnlimited_Intention.java" startLine="42" startPosition="111" endLine="43" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600298" fileName="MakeUnlimited_Intention.java" startLine="46" startPosition="76" endLine="47" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="50" startPosition="37" endLine="51" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="11" startPosition="81" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeUnlimited_Intention#()V" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="35" startPosition="84" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isVisibleInChild#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="34" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="12" startPosition="36" endLine="12" endPosition="36" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="38" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="16" />
+    <scopeInfo nodeId="4975721382227600279" fileName="MakeUnlimited_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="28" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="36" startPosition="132" endLine="37" endPosition="19" />
+    <scopeInfo nodeId="4975721382227600283" fileName="MakeUnlimited_Intention.java" startLine="42" startPosition="111" endLine="43" endPosition="72" />
+    <scopeInfo nodeId="4975721382227600281" fileName="MakeUnlimited_Intention.java" startLine="46" startPosition="76" endLine="47" endPosition="63" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="50" startPosition="37" endLine="51" endPosition="33" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="11" startPosition="81" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="35" startPosition="84" endLine="39" endPosition="16" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="34" startPosition="0" endLine="41" endPosition="0" />
+    <unitInfo nodeId="4975721382227600277" fileName="MakeUnlimited_Intention.java" startLine="11" startPosition="0" endLine="54" endPosition="0" unitName="DeCypher.intentions.MakeUnlimited_Intention" />
   </root>
   <root nodeId="6594089058937002106">
     <nodeInfo nodeId="6594089058937002106" fileName="MakeNotDistinct_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
