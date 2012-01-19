@@ -21,6 +21,7 @@ public class Query extends BaseConcept implements INamedConcept {
   public static final String START_CLAUSE = "startClause";
   public static final String WHERE_CLAUSE = "whereClause";
   public static final String RETURN_CLAUSE = "returnClause";
+  public static final String LIMIT_CLAUSE = "limitClause";
   public static final String SMODEL_ATTRIBUTE = "smodelAttribute";
 
   public Query(SNode node) {
@@ -81,6 +82,14 @@ public class Query extends BaseConcept implements INamedConcept {
 
   public void setReturnClause(ReturnClause node) {
     super.setChild(Query.RETURN_CLAUSE, node);
+  }
+
+  public LimitClause getLimitClause() {
+    return (LimitClause) this.getChild(LimitClause.class, Query.LIMIT_CLAUSE);
+  }
+
+  public void setLimitClause(LimitClause node) {
+    super.setChild(Query.LIMIT_CLAUSE, node);
   }
 
   public int getSmodelAttributesCount() {

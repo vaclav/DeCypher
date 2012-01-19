@@ -6,14 +6,30 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="DeCypher.behavior.AvgReturnRetm_BehaviorDescriptor" file="AvgReturnRetm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="DeCypher.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="DeCypher.behavior.AndWhereExpression_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.AvgReturnRetm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.CollectReturnType_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.CountReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.DistinctReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.FalseWhereExpression_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.GraphNodeReference_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.GraphNode_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.IDReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.LengthReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.LimitClause_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.MaxReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.MinReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.NodeReferringWhereTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.NodeReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.NodesReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.NonNullReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.NotWhereExpression_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.OrWhereExpression_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.PropertyExpressionWhereTerm_BehaviorDescriptor" />
@@ -22,18 +38,34 @@
     <classNode dependClassName="DeCypher.behavior.PropertyReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Queries_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Query_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.ReturnClause_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.SimpleNodeWhereTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.SimplePropertyWhereTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.StarReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.StartClause_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.StartTerm_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.SumReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.TrueWhereExpression_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.TypeReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.WhereClause_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.CollectReturnType_BehaviorDescriptor" file="CollectReturnType_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.CountReturnTerm_BehaviorDescriptor" file="CountReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="DeCypher.behavior.DistinctReturnTerm_BehaviorDescriptor" file="DistinctReturnTerm_BehaviorDescriptor.java">
     <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
@@ -45,6 +77,16 @@
     <classNode dependClassName="DeCypher.behavior.NodeExpressionWhereTerm_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" file="FunctionalReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="DeCypher.behavior.GraphNodeReference_BehaviorDescriptor" file="GraphNodeReference_BehaviorDescriptor.java">
@@ -63,8 +105,38 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="DeCypher.behavior.IDReturnTerm_BehaviorDescriptor" file="IDReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.LengthReturnTerm_BehaviorDescriptor" file="LengthReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.LimitClause_BehaviorDescriptor" file="LimitClause_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="DeCypher.behavior.LogicalWhereExpression_BehaviorDescriptor" file="LogicalWhereExpression_BehaviorDescriptor.java">
     <classNode dependClassName="DeCypher.behavior.NodeExpressionWhereTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.MaxReturnTerm_BehaviorDescriptor" file="MaxReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.MinReturnTerm_BehaviorDescriptor" file="MinReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
@@ -82,6 +154,18 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="DeCypher.behavior.NodeReturnTerm_BehaviorDescriptor" file="NodeReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.NodesReturnTerm_BehaviorDescriptor" file="NodesReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.NonNullReturnTerm_BehaviorDescriptor" file="NonNullReturnTerm_BehaviorDescriptor.java">
     <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -154,6 +238,12 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" file="RelationshipReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="DeCypher.behavior.ReturnClause_BehaviorDescriptor" file="ReturnClause_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -178,6 +268,12 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="DeCypher.behavior.StarReturnTerm_BehaviorDescriptor" file="StarReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="DeCypher.behavior.StartClause_BehaviorDescriptor" file="StartClause_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -190,8 +286,20 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="DeCypher.behavior.SumReturnTerm_BehaviorDescriptor" file="SumReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.FunctionalReturnTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="DeCypher.behavior.TrueWhereExpression_BehaviorDescriptor" file="TrueWhereExpression_BehaviorDescriptor.java">
     <classNode dependClassName="DeCypher.behavior.NodeExpressionWhereTerm_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.TypeReturnTerm_BehaviorDescriptor" file="TypeReturnTerm_BehaviorDescriptor.java">
+    <classNode dependClassName="DeCypher.behavior.ReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

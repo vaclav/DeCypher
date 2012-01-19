@@ -15,9 +15,8 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
-  <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" hash="50my7ubz88jmqgd0wd73vhwu7f5yqt6" />
+  <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" hash="8sj7p0bko17nq1stwouakfjamnxcwva" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <common hash="-cryyfd81fqh2bo6p07o2mtimf5jp9b4" dependsOnNodes="true">
     <dep root="6594089058936598868" />
@@ -37,15 +36,26 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="AndWhereExpression_BehaviorDescriptor.java" />
+    <file name="AvgReturnRetm_BehaviorDescriptor.java" />
     <file name="BehaviorAspectDescriptor.java" />
+    <file name="CollectReturnType_BehaviorDescriptor.java" />
+    <file name="CountReturnTerm_BehaviorDescriptor.java" />
     <file name="DistinctReturnTerm_BehaviorDescriptor.java" />
     <file name="FalseWhereExpression_BehaviorDescriptor.java" />
+    <file name="FunctionalReturnTerm_BehaviorDescriptor.java" />
     <file name="GraphNodeReference_BehaviorDescriptor.java" />
     <file name="GraphNode_BehaviorDescriptor.java" />
+    <file name="IDReturnTerm_BehaviorDescriptor.java" />
+    <file name="LengthReturnTerm_BehaviorDescriptor.java" />
+    <file name="LimitClause_BehaviorDescriptor.java" />
     <file name="LogicalWhereExpression_BehaviorDescriptor.java" />
+    <file name="MaxReturnTerm_BehaviorDescriptor.java" />
+    <file name="MinReturnTerm_BehaviorDescriptor.java" />
     <file name="NodeExpressionWhereTerm_BehaviorDescriptor.java" />
     <file name="NodeReferringWhereTerm_BehaviorDescriptor.java" />
     <file name="NodeReturnTerm_BehaviorDescriptor.java" />
+    <file name="NodesReturnTerm_BehaviorDescriptor.java" />
+    <file name="NonNullReturnTerm_BehaviorDescriptor.java" />
     <file name="NotWhereExpression_BehaviorDescriptor.java" />
     <file name="OrWhereExpression_BehaviorDescriptor.java" />
     <file name="PropertyExpressionWhereTerm_BehaviorDescriptor.java" />
@@ -54,13 +64,17 @@
     <file name="PropertyReturnTerm_BehaviorDescriptor.java" />
     <file name="Queries_BehaviorDescriptor.java" />
     <file name="Query_BehaviorDescriptor.java" />
+    <file name="RelationshipReturnTerm_BehaviorDescriptor.java" />
     <file name="ReturnClause_BehaviorDescriptor.java" />
     <file name="ReturnTerm_BehaviorDescriptor.java" />
     <file name="SimpleNodeWhereTerm_BehaviorDescriptor.java" />
     <file name="SimplePropertyWhereTerm_BehaviorDescriptor.java" />
+    <file name="StarReturnTerm_BehaviorDescriptor.java" />
     <file name="StartClause_BehaviorDescriptor.java" />
     <file name="StartTerm_BehaviorDescriptor.java" />
+    <file name="SumReturnTerm_BehaviorDescriptor.java" />
     <file name="TrueWhereExpression_BehaviorDescriptor.java" />
+    <file name="TypeReturnTerm_BehaviorDescriptor.java" />
     <file name="WhereClause_BehaviorDescriptor.java" />
     <file name="WhereTerm_BehaviorDescriptor.java" />
   </common>
@@ -80,7 +94,6 @@
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="PropertyReference_Behavior.java" />
   </source>

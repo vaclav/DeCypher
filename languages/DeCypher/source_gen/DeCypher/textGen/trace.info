@@ -38,17 +38,89 @@
     <unitInfo nodeId="3523181383831989312" fileName="FalseWhereExpression_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="DeCypher.textGen.FalseWhereExpression_TextGen" />
   </root>
   <root nodeId="3523181383832000444">
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="28" endLine="13" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="28" endLine="13" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="13" startPosition="146" endLine="14" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="10" startPosition="55" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="28" endLine="13" endPosition="146" />
-    <scopeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="22" />
-    <scopeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="22" />
-    <scopeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="10" startPosition="55" endLine="16" endPosition="0" />
-    <unitInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="DeCypher.textGen.WhereClause_TextGen" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="13" startPosition="30" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="11" startPosition="55" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" />
+    <scopeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" />
+    <scopeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="22" />
+    <scopeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="22" />
+    <scopeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="11" startPosition="55" endLine="21" endPosition="0" />
+    <unitInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="DeCypher.textGen.WhereClause_TextGen" />
+  </root>
+  <root nodeId="4975721382227422442">
+    <nodeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="13" startPosition="69" endLine="14" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="14" startPosition="21" endLine="15" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="14" startPosition="21" endLine="15" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="15" startPosition="152" endLine="16" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="12" startPosition="42" endLine="16" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227422442" fileName="FunctionalReturnTerm_TextGen.java" startLine="11" startPosition="64" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="14" startPosition="21" endLine="15" endPosition="152" />
+    <scopeInfo nodeId="4975721382227422442" fileName="FunctionalReturnTerm_TextGen.java" startLine="12" startPosition="42" endLine="16" endPosition="21" />
+    <scopeInfo nodeId="4975721382227422445" fileName="FunctionalReturnTerm_TextGen.java" startLine="12" startPosition="42" endLine="16" endPosition="21" />
+    <scopeInfo nodeId="4975721382227422442" fileName="FunctionalReturnTerm_TextGen.java" startLine="11" startPosition="64" endLine="18" endPosition="0" />
+    <unitInfo nodeId="4975721382227422442" fileName="FunctionalReturnTerm_TextGen.java" startLine="11" startPosition="0" endLine="19" endPosition="0" unitName="DeCypher.textGen.FunctionalReturnTerm_TextGen" />
+  </root>
+  <root nodeId="4975721382227454128">
+    <nodeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="15" startPosition="74" endLine="16" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="14" startPosition="94" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="13" startPosition="27" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="12" startPosition="42" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227454128" fileName="ReturnClause_TextGen.java" startLine="11" startPosition="56" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="15" startPosition="74" endLine="16" endPosition="109" />
+    <scopeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="14" startPosition="94" endLine="17" endPosition="7" />
+    <scopeInfo nodeId="4975721382227454128" fileName="ReturnClause_TextGen.java" startLine="12" startPosition="42" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="4975721382227454131" fileName="ReturnClause_TextGen.java" startLine="12" startPosition="42" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="4975721382227454128" fileName="ReturnClause_TextGen.java" startLine="11" startPosition="56" endLine="20" endPosition="0" />
+    <unitInfo nodeId="4975721382227454128" fileName="ReturnClause_TextGen.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="DeCypher.textGen.ReturnClause_TextGen" />
+  </root>
+  <root nodeId="4975721382227508173">
+    <nodeInfo nodeId="4975721382227508176" fileName="StarReturnTerm_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227508176" fileName="StarReturnTerm_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227508173" fileName="StarReturnTerm_TextGen.java" startLine="8" startPosition="58" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4975721382227508173" fileName="StarReturnTerm_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="21" />
+    <scopeInfo nodeId="4975721382227508176" fileName="StarReturnTerm_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="21" />
+    <scopeInfo nodeId="4975721382227508173" fileName="StarReturnTerm_TextGen.java" startLine="8" startPosition="58" endLine="12" endPosition="0" />
+    <unitInfo nodeId="4975721382227508173" fileName="StarReturnTerm_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="DeCypher.textGen.StarReturnTerm_TextGen" />
+  </root>
+  <root nodeId="4975721382227508179">
+    <nodeInfo nodeId="4975721382227508182" fileName="TypeReturnTerm_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227508182" fileName="TypeReturnTerm_TextGen.java" startLine="11" startPosition="69" endLine="12" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227508182" fileName="TypeReturnTerm_TextGen.java" startLine="12" startPosition="21" endLine="13" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227508182" fileName="TypeReturnTerm_TextGen.java" startLine="10" startPosition="42" endLine="13" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227508179" fileName="TypeReturnTerm_TextGen.java" startLine="9" startPosition="58" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4975721382227508179" fileName="TypeReturnTerm_TextGen.java" startLine="10" startPosition="42" endLine="13" endPosition="21" />
+    <scopeInfo nodeId="4975721382227508182" fileName="TypeReturnTerm_TextGen.java" startLine="10" startPosition="42" endLine="13" endPosition="21" />
+    <scopeInfo nodeId="4975721382227508179" fileName="TypeReturnTerm_TextGen.java" startLine="9" startPosition="58" endLine="15" endPosition="0" />
+    <unitInfo nodeId="4975721382227508179" fileName="TypeReturnTerm_TextGen.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.textGen.TypeReturnTerm_TextGen" />
+  </root>
+  <root nodeId="4975721382227574132">
+    <nodeInfo nodeId="4975721382227574135" fileName="NonNullReturnTerm_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227574135" fileName="NonNullReturnTerm_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227574135" fileName="NonNullReturnTerm_TextGen.java" startLine="12" startPosition="160" endLine="13" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227574135" fileName="NonNullReturnTerm_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227574132" fileName="NonNullReturnTerm_TextGen.java" startLine="10" startPosition="61" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4975721382227574135" fileName="NonNullReturnTerm_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="160" />
+    <scopeInfo nodeId="4975721382227574132" fileName="NonNullReturnTerm_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="21" />
+    <scopeInfo nodeId="4975721382227574135" fileName="NonNullReturnTerm_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="21" />
+    <scopeInfo nodeId="4975721382227574132" fileName="NonNullReturnTerm_TextGen.java" startLine="10" startPosition="61" endLine="15" endPosition="0" />
+    <unitInfo nodeId="4975721382227574132" fileName="NonNullReturnTerm_TextGen.java" startLine="10" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.textGen.NonNullReturnTerm_TextGen" />
+  </root>
+  <root nodeId="4975721382227574167">
+    <nodeInfo nodeId="4975721382227574170" fileName="LimitClause_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227574170" fileName="LimitClause_TextGen.java" startLine="11" startPosition="25" endLine="12" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227574170" fileName="LimitClause_TextGen.java" startLine="10" startPosition="42" endLine="12" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4975721382227574167" fileName="LimitClause_TextGen.java" startLine="9" startPosition="55" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="4975721382227574167" fileName="LimitClause_TextGen.java" startLine="10" startPosition="42" endLine="12" endPosition="82" />
+    <scopeInfo nodeId="4975721382227574170" fileName="LimitClause_TextGen.java" startLine="10" startPosition="42" endLine="12" endPosition="82" />
+    <scopeInfo nodeId="4975721382227574167" fileName="LimitClause_TextGen.java" startLine="9" startPosition="55" endLine="14" endPosition="0" />
+    <unitInfo nodeId="4975721382227574167" fileName="LimitClause_TextGen.java" startLine="9" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.textGen.LimitClause_TextGen" />
   </root>
   <root nodeId="8211191680715152473">
     <nodeInfo nodeId="8211191680715152476" fileName="NotWhereExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="DeCypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="DeCypher.intentions.IntentionsDescriptor" />
+  <root nodeId="4975721382227553508">
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227553513" fileName="IncludeNullValues_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227553515" fileName="IncludeNullValues_Intention.java" startLine="36" startPosition="76" endLine="37" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="40" startPosition="37" endLine="41" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="12" startPosition="85" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IncludeNullValues_Intention#()V" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="13" startPosition="40" endLine="13" endPosition="40" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="50" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="4975721382227553510" fileName="IncludeNullValues_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="33" />
+    <scopeInfo nodeId="4975721382227553512" fileName="IncludeNullValues_Intention.java" startLine="36" startPosition="76" endLine="37" endPosition="106" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="40" startPosition="37" endLine="41" endPosition="33" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="12" startPosition="85" endLine="14" endPosition="3" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <unitInfo nodeId="4975721382227553508" fileName="IncludeNullValues_Intention.java" startLine="12" startPosition="0" endLine="44" endPosition="0" unitName="DeCypher.intentions.IncludeNullValues_Intention" />
+  </root>
+  <root nodeId="4975721382227554394">
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="30" startPosition="44" endLine="31" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554399" fileName="ExcludeNullValues_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="39" startPosition="58" endLine="40" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="41" startPosition="5" endLine="42" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227570216" fileName="ExcludeNullValues_Intention.java" startLine="45" startPosition="90" endLine="46" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554406" fileName="ExcludeNullValues_Intention.java" startLine="49" startPosition="76" endLine="50" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4975721382227554415" fileName="ExcludeNullValues_Intention.java" startLine="50" startPosition="99" endLine="51" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227554425" fileName="ExcludeNullValues_Intention.java" startLine="51" startPosition="54" endLine="52" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="55" startPosition="37" endLine="56" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="14" startPosition="85" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ExcludeNullValues_Intention#()V" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="38" startPosition="84" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="15" startPosition="40" endLine="15" endPosition="40" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="51" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="30" startPosition="44" endLine="31" endPosition="16" />
+    <scopeInfo nodeId="4975721382227554396" fileName="ExcludeNullValues_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="33" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="39" startPosition="58" endLine="40" endPosition="19" />
+    <scopeInfo nodeId="4975721382227570215" fileName="ExcludeNullValues_Intention.java" startLine="45" startPosition="90" endLine="46" endPosition="134" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="55" startPosition="37" endLine="56" endPosition="33" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="14" startPosition="85" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="4975721382227554398" fileName="ExcludeNullValues_Intention.java" startLine="49" startPosition="76" endLine="52" endPosition="73">
+      <varInfo nodeId="4975721382227554407" varName="newNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="38" startPosition="84" endLine="42" endPosition="16" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
+    <unitInfo nodeId="4975721382227554394" fileName="ExcludeNullValues_Intention.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="DeCypher.intentions.ExcludeNullValues_Intention" />
+  </root>
   <root nodeId="6594089058937002106">
     <nodeInfo nodeId="6594089058937002106" fileName="MakeNotDistinct_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6594089058937002106" fileName="MakeNotDistinct_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -36,55 +119,65 @@
     <unitInfo nodeId="6594089058937002106" fileName="MakeNotDistinct_Intention.java" startLine="12" startPosition="0" endLine="44" endPosition="0" unitName="DeCypher.intentions.MakeNotDistinct_Intention" />
   </root>
   <root nodeId="6594089058937003143">
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="29" startPosition="44" endLine="30" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003148" fileName="MakeDistinct_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="38" startPosition="58" endLine="39" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="40" startPosition="5" endLine="41" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003860" fileName="MakeDistinct_Intention.java" startLine="44" startPosition="90" endLine="45" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003166" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="76" endLine="49" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6594089058937003670" fileName="MakeDistinct_Intention.java" startLine="49" startPosition="105" endLine="50" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6594089058937003150" fileName="MakeDistinct_Intention.java" startLine="50" startPosition="103" endLine="51" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6594089058937003174" fileName="MakeDistinct_Intention.java" startLine="51" startPosition="59" endLine="52" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="55" startPosition="37" endLine="56" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="13" startPosition="80" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeDistinct_Intention#()V" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="37" startPosition="84" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="36" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
-    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="47" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="14" startPosition="35" endLine="14" endPosition="35" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="47" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="29" startPosition="44" endLine="30" endPosition="16" />
-    <scopeInfo nodeId="6594089058937003145" fileName="MakeDistinct_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="27" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="38" startPosition="58" endLine="39" endPosition="19" />
-    <scopeInfo nodeId="6594089058937003859" fileName="MakeDistinct_Intention.java" startLine="44" startPosition="90" endLine="45" endPosition="108" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="55" startPosition="37" endLine="56" endPosition="33" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="13" startPosition="80" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="37" startPosition="84" endLine="41" endPosition="16" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003147" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="76" endLine="52" endPosition="76">
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="30" startPosition="44" endLine="31" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003148" fileName="MakeDistinct_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="39" startPosition="58" endLine="40" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="42" startPosition="132" endLine="43" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="44" startPosition="5" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227572833" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="90" endLine="49" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227573708" fileName="MakeDistinct_Intention.java" startLine="53" startPosition="127" endLine="54" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227573241" fileName="MakeDistinct_Intention.java" startLine="55" startPosition="5" endLine="56" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003166" fileName="MakeDistinct_Intention.java" startLine="59" startPosition="76" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6594089058937003670" fileName="MakeDistinct_Intention.java" startLine="60" startPosition="105" endLine="61" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6594089058937003150" fileName="MakeDistinct_Intention.java" startLine="61" startPosition="99" endLine="62" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058937003174" fileName="MakeDistinct_Intention.java" startLine="62" startPosition="59" endLine="63" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="66" startPosition="37" endLine="67" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="14" startPosition="80" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeDistinct_Intention#()V" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="38" startPosition="84" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="41" startPosition="5" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4975721382227573679" fileName="MakeDistinct_Intention.java" startLine="52" startPosition="111" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isVisibleInChild#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="58" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="37" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="15" startPosition="35" endLine="15" endPosition="35" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="43" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="30" startPosition="44" endLine="31" endPosition="16" />
+    <scopeInfo nodeId="6594089058937003145" fileName="MakeDistinct_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="27" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="39" startPosition="58" endLine="40" endPosition="19" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="42" startPosition="132" endLine="43" endPosition="19" />
+    <scopeInfo nodeId="6594089058937003859" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="90" endLine="49" endPosition="135" />
+    <scopeInfo nodeId="4975721382227573680" fileName="MakeDistinct_Intention.java" startLine="53" startPosition="127" endLine="54" endPosition="19" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="66" startPosition="37" endLine="67" endPosition="33" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="14" startPosition="80" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="4975721382227573239" fileName="MakeDistinct_Intention.java" startLine="52" startPosition="111" endLine="56" endPosition="162" />
+    <scopeInfo nodeId="6594089058937003147" fileName="MakeDistinct_Intention.java" startLine="59" startPosition="76" endLine="63" endPosition="76">
       <varInfo nodeId="6594089058937003671" varName="parent" />
       <varInfo nodeId="6594089058937003167" varName="distinctNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="36" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="47" startPosition="0" endLine="54" endPosition="0" />
-    <unitInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="13" startPosition="0" endLine="59" endPosition="0" unitName="DeCypher.intentions.MakeDistinct_Intention" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="38" startPosition="84" endLine="45" endPosition="16" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="58" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="37" startPosition="0" endLine="47" endPosition="0" />
+    <unitInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="14" startPosition="0" endLine="70" endPosition="0" unitName="DeCypher.intentions.MakeDistinct_Intention" />
   </root>
 </debugInfo>
 

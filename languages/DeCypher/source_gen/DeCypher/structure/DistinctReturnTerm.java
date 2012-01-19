@@ -15,11 +15,11 @@ public class DistinctReturnTerm extends ReturnTerm {
     super(node);
   }
 
-  public NodeReturnTerm getNodeReturnTerm() {
-    return (NodeReturnTerm) this.getChild(NodeReturnTerm.class, DistinctReturnTerm.NODE_RETURN_TERM);
+  public ReturnTerm getNodeReturnTerm() {
+    return (ReturnTerm) this.getChild(ReturnTerm.class, DistinctReturnTerm.NODE_RETURN_TERM);
   }
 
-  public void setNodeReturnTerm(NodeReturnTerm node) {
+  public void setNodeReturnTerm(ReturnTerm node) {
     super.setChild(DistinctReturnTerm.NODE_RETURN_TERM, node);
   }
 

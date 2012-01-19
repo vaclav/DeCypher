@@ -12,6 +12,8 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   }
 
   public void init() {
+    add(new ExcludeNullValues_Intention(), "4975721382227554394");
+    add(new IncludeNullValues_Intention(), "4975721382227553508");
     add(new MakeDistinct_Intention(), "6594089058937003143");
     add(new MakeNotDistinct_Intention(), "6594089058937002106");
   }

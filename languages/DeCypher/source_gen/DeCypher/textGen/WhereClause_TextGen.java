@@ -4,13 +4,18 @@ package DeCypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.textGen.TextGenManager;
 
 public class WhereClause_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("\"WHERE ");
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "term", true), this.getSNode());
+    this.append("\"WHxxERE ");
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "term", true)).isNotEmpty()) {
+      for (SNode item : SLinkOperations.getTargets(node, "term", true)) {
+        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+      }
+    }
     this.append("\"");
   }
 }

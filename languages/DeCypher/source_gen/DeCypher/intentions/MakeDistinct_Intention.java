@@ -6,6 +6,7 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -15,7 +16,7 @@ public class MakeDistinct_Intention extends BaseIntention implements Intention {
   }
 
   public String getConcept() {
-    return "DeCypher.structure.NodeReturnTerm";
+    return "DeCypher.structure.ReturnTerm";
   }
 
   public boolean isParameterized() {
@@ -38,16 +39,26 @@ public class MakeDistinct_Intention extends BaseIntention implements Intention {
     if (!(this.isApplicableToNode(node, editorContext))) {
       return false;
     }
+    if (editorContext.getSelectedNode() != node && !(this.isVisibleInChild(node, editorContext.getSelectedNode(), editorContext))) {
+      return false;
+    }
     return true;
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return SNodeOperations.getAncestor(node, "DeCypher.structure.DistinctReturnTerm", false, false) == null;
+    return (int) ListSequence.fromList(SNodeOperations.getAncestors(node, "DeCypher.structure.DistinctReturnTerm", true)).count() == 0;
+  }
+
+  public boolean isVisibleInChild(final SNode node, final SNode childNode, final EditorContext editorContext) {
+    if (ListSequence.fromList(SNodeOperations.getAncestors(node, "DeCypher.structure.NonNullReturnTerm", false)).count() > 0) {
+      return false;
+    }
+    return SNodeOperations.isInstanceOf(node, "DeCypher.structure.PropertyReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.NodeReturnTerm");
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
     SNode distinctNode = SConceptOperations.createNewNode("DeCypher.structure.DistinctReturnTerm", null);
-    SNode parent = SNodeOperations.getAncestor(node, "DeCypher.structure.NodeReturnTerm", true, false);
+    SNode parent = SNodeOperations.getAncestor(node, "DeCypher.structure.ReturnTerm", true, false);
     SNodeOperations.replaceWithAnother(node, distinctNode);
     SLinkOperations.setTarget(distinctNode, "nodeReturnTerm", parent, true);
   }

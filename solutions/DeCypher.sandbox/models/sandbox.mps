@@ -54,6 +54,9 @@
           </node>
         </node>
       </node>
+      <node role="limitClause" roleId="89ga.4975721382227574147" type="89ga.LimitClause" typeId="89ga.4975721382227574148" id="4975721382227587097">
+        <property name="number" nameId="89ga.4975721382227574158" value="1" />
+      </node>
     </node>
     <node role="queries" roleId="89ga.7818489619910585463" type="89ga.Query" typeId="89ga.7818489619910585461" id="7818489619910587752">
       <property name="name" nameId="tpck.1169194664001" value="Foo" />
@@ -111,6 +114,9 @@
           </node>
         </node>
       </node>
+      <node role="limitClause" roleId="89ga.4975721382227574147" type="89ga.LimitClause" typeId="89ga.4975721382227574148" id="4975721382227587098">
+        <property name="number" nameId="89ga.4975721382227574158" value="10" />
+      </node>
     </node>
     <node role="queries" roleId="89ga.7818489619910585463" type="89ga.Query" typeId="89ga.7818489619910585461" id="7818489619910589278">
       <property name="name" nameId="tpck.1169194664001" value="Baz" />
@@ -136,10 +142,32 @@
         </node>
       </node>
       <node role="returnClause" roleId="89ga.6594089058936983638" type="89ga.ReturnClause" typeId="89ga.6594089058936980500" id="6594089058936992691">
-        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.PropertyReturnTerm" typeId="89ga.6594089058936980519" id="6594089058936992692">
-          <node role="propertyReference" roleId="89ga.6594089058936980520" type="89ga.PropertyReference" typeId="89ga.2541834658517027313" id="6594089058936992694">
-            <property name="name" nameId="tpck.1169194664001" value="b" />
-            <link role="graphNode" roleId="89ga.2541834658517027316" targetNodeId="2541834658517093072" resolveInfo="BAZ" />
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.DistinctReturnTerm" typeId="89ga.6594089058936992699" id="4975721382227391283">
+          <node role="nodeReturnTerm" roleId="89ga.6594089058936992701" type="89ga.PropertyReturnTerm" typeId="89ga.6594089058936980519" id="4975721382227391278">
+            <node role="propertyReference" roleId="89ga.6594089058936980520" type="89ga.PropertyReference" typeId="89ga.2541834658517027313" id="4975721382227391280">
+              <property name="name" nameId="tpck.1169194664001" value="a" />
+              <link role="graphNode" roleId="89ga.2541834658517027316" targetNodeId="2541834658517093072" resolveInfo="BAZ" />
+            </node>
+          </node>
+        </node>
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.SumReturnTerm" typeId="89ga.4975721382227391302" id="4975721382227401584">
+          <node role="returnTerm" roleId="89ga.4975721382227391286" type="89ga.NodeReturnTerm" typeId="89ga.6594089058936980514" id="4975721382227401585">
+            <node role="graphNode" roleId="89ga.6594089058936980515" type="89ga.GraphNodeReference" typeId="89ga.2541834658516920958" id="4975721382227401587">
+              <link role="graphNode" roleId="89ga.2541834658516920960" targetNodeId="2541834658517093072" resolveInfo="BAZ" />
+            </node>
+          </node>
+        </node>
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.CountReturnTerm" typeId="89ga.4975721382227391305" id="4975721382227422436">
+          <node role="returnTerm" roleId="89ga.4975721382227391286" type="89ga.StarReturnTerm" typeId="89ga.4975721382227412594" id="4975721382227422440" />
+        </node>
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.DistinctReturnTerm" typeId="89ga.6594089058936992699" id="4975721382227574129">
+          <node role="nodeReturnTerm" roleId="89ga.6594089058936992701" type="89ga.NonNullReturnTerm" typeId="89ga.4975721382227553497" id="4975721382227573674">
+            <node role="propertyReturnTerm" roleId="89ga.4975721382227553499" type="89ga.PropertyReturnTerm" typeId="89ga.6594089058936980519" id="4975721382227568569">
+              <node role="propertyReference" roleId="89ga.6594089058936980520" type="89ga.PropertyReference" typeId="89ga.2541834658517027313" id="4975721382227568571">
+                <property name="name" nameId="tpck.1169194664001" value="a" />
+                <link role="graphNode" roleId="89ga.2541834658517027316" targetNodeId="2541834658517093072" resolveInfo="BAZ" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
