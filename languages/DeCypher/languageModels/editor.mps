@@ -4,7 +4,7 @@
   <language namespace="2bff36db-590f-45b0-8915-8404dea505ff(DeCypher)" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="14" />
+  <import index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="15" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" implicit="yes" />
@@ -58,7 +58,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2541834658517078143">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="start" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="89ga.2541834658517078141" resolveInfo="StartTerm" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="89ga.2541834658517078141" resolveInfo="NodeStartTerm" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2541834658517078152">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="start" />
@@ -118,6 +118,9 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4975721382227601761">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="start" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="89ga.4975721382227601757" resolveInfo="IndexQuery" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4975721382227661312">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="89ga.4975721382227661309" resolveInfo="Relationship" />
     </node>
   </roots>
   <root id="7818489619910585464">
@@ -545,6 +548,14 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="89ga.4975721382227601758" resolveInfo="value" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4975721382227601765" />
+    </node>
+  </root>
+  <root id="4975721382227661312">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4975721382227661315">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4975721382227661316" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4975721382227661317">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+      </node>
     </node>
   </root>
 </model>

@@ -3,7 +3,7 @@
   <persistence version="7" />
   <language namespace="2bff36db-590f-45b0-8915-8404dea505ff(DeCypher)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <import index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="14" implicit="yes" />
+  <import index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="15" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <roots>
@@ -36,7 +36,7 @@
         </node>
       </node>
       <node role="startClause" roleId="89ga.2541834658517085270" type="89ga.StartClause" typeId="89ga.2541834658517078140" id="2541834658517092917">
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227616741">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227616741">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227616742">
             <property name="name" nameId="tpck.1169194664001" value="FOO" />
           </node>
@@ -49,7 +49,7 @@
             </node>
           </node>
         </node>
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227616747">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227616747">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227616748">
             <property name="name" nameId="tpck.1169194664001" value="D" />
           </node>
@@ -61,7 +61,7 @@
             </node>
           </node>
         </node>
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227617551">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227617551">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227617552">
             <property name="name" nameId="tpck.1169194664001" value="n" />
           </node>
@@ -126,7 +126,7 @@
         </node>
       </node>
       <node role="startClause" roleId="89ga.2541834658517085270" type="89ga.StartClause" typeId="89ga.2541834658517078140" id="2541834658517093067">
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227655797">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227655797">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227655798">
             <property name="name" nameId="tpck.1169194664001" value="BAR" />
           </node>
@@ -136,7 +136,7 @@
             </node>
           </node>
         </node>
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227655802">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227655802">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227655803">
             <property name="name" nameId="tpck.1169194664001" value="BAZ" />
           </node>
@@ -189,7 +189,7 @@
         </node>
       </node>
       <node role="startClause" roleId="89ga.2541834658517085270" type="89ga.StartClause" typeId="89ga.2541834658517078140" id="2541834658517093070">
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227661297">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227661297">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227661298">
             <property name="name" nameId="tpck.1169194664001" value="BAZ" />
           </node>
@@ -199,7 +199,7 @@
             </node>
           </node>
         </node>
-        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.StartTerm" typeId="89ga.2541834658517078141" id="4975721382227661302">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="4975721382227661302">
           <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="4975721382227661303">
             <property name="name" nameId="tpck.1169194664001" value="BAZ2" />
           </node>
