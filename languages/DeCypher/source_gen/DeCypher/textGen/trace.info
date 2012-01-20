@@ -38,11 +38,11 @@
     <unitInfo nodeId="3523181383831989312" fileName="FalseWhereExpression_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="DeCypher.textGen.FalseWhereExpression_TextGen" />
   </root>
   <root nodeId="3523181383832000444">
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="13" startPosition="30" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="13" startPosition="35" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3523181383832000444" fileName="WhereClause_TextGen.java" startLine="11" startPosition="55" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="3523181383832000447" fileName="WhereClause_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" />

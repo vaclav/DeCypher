@@ -10,7 +10,7 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class WhereClause_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("\"WHxxERE ");
+    this.append("\"WHxxxxxxxERE ");
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "term", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "term", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
