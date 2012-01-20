@@ -5,11 +5,14 @@ package DeCypher.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class TypeReturnTerm_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append(SConceptPropertyOperations.getString(node, "alias"));
     this.append("(");
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "reference", true), this.getSNode());
     this.append(")");
   }
 }

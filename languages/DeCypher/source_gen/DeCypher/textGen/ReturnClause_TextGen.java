@@ -10,11 +10,15 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class ReturnClause_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("RETURN ");
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "terms", true)).isNotEmpty()) {
-      for (SNode item : SLinkOperations.getTargets(node, "terms", true)) {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+    this.append("\"RETURN ");
+    int length = ListSequence.fromList(SLinkOperations.getTargets(node, "terms", true)).count();
+    for (int i = 0; i < length; i++) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTargets(node, "terms", true).get(i), this.getSNode());
+      if (i < length - 1) {
+        this.append(", ");
       }
     }
+    this.append("\"");
+
   }
 }

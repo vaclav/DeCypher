@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="31" endPosition="0" unitName="DeCypher.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="33" endPosition="0" unitName="DeCypher.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="2541834658517101018">
     <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="23" startPosition="79" endLine="24" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_noh95_a0a1a0a0a1a0b0a1a0" />
     <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="26" startPosition="43" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -188,6 +188,32 @@
     <unitInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="42" startPosition="19" endLine="65" endPosition="9" unitName="DeCypher.constraints.RelationshipReference_Constraints$2" />
     <unitInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="33" startPosition="39" endLine="67" endPosition="5" unitName="DeCypher.constraints.RelationshipReference_Constraints$1" />
     <unitInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="23" startPosition="0" endLine="71" endPosition="0" unitName="DeCypher.constraints.RelationshipReference_Constraints" />
+  </root>
+  <root nodeId="7750257802048807518">
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="14" startPosition="79" endLine="15" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeParentBreakingPoint" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="17" startPosition="43" endLine="18" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="22" startPosition="44" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="27" startPosition="155" endLine="28" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="28" startPosition="104" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="33" startPosition="0" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048807537" fileName="DistinctReturnTerm_Constraints.java" startLine="37" startPosition="123" endLine="38" endPosition="718" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DistinctReturnTerm_Constraints#()V" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAParent#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/constraints/CanBeAParentContext;)Z" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeParentMethod#()Z" />
+    <nodeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="25" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeParent#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="17" startPosition="43" endLine="18" endPosition="51" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="22" startPosition="44" endLine="23" endPosition="16" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="68" />
+    <scopeInfo nodeId="7750257802048807536" fileName="DistinctReturnTerm_Constraints.java" startLine="37" startPosition="123" endLine="38" endPosition="718" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="27" startPosition="155" endLine="34" endPosition="18" />
+    <scopeInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="25" startPosition="0" endLine="36" endPosition="0" />
+    <unitInfo nodeId="7750257802048807518" fileName="DistinctReturnTerm_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="DeCypher.constraints.DistinctReturnTerm_Constraints" />
   </root>
 </debugInfo>
 

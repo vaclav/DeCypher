@@ -172,9 +172,9 @@
     <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="39" startPosition="58" endLine="40" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="42" startPosition="132" endLine="43" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="44" startPosition="5" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4975721382227572833" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="90" endLine="49" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227572833" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="90" endLine="49" endPosition="527" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4975721382227573708" fileName="MakeDistinct_Intention.java" startLine="53" startPosition="127" endLine="54" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4975721382227573241" fileName="MakeDistinct_Intention.java" startLine="55" startPosition="5" endLine="56" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227573241" fileName="MakeDistinct_Intention.java" startLine="55" startPosition="5" endLine="56" endPosition="349" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6594089058937003166" fileName="MakeDistinct_Intention.java" startLine="59" startPosition="76" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6594089058937003670" fileName="MakeDistinct_Intention.java" startLine="60" startPosition="105" endLine="61" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6594089058937003150" fileName="MakeDistinct_Intention.java" startLine="61" startPosition="99" endLine="62" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -202,7 +202,7 @@
     <scopeInfo nodeId="6594089058937003145" fileName="MakeDistinct_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="27" />
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="39" startPosition="58" endLine="40" endPosition="19" />
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="42" startPosition="132" endLine="43" endPosition="19" />
-    <scopeInfo nodeId="6594089058937003859" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="90" endLine="49" endPosition="135" />
+    <scopeInfo nodeId="6594089058937003859" fileName="MakeDistinct_Intention.java" startLine="48" startPosition="90" endLine="49" endPosition="527" />
     <scopeInfo nodeId="4975721382227573680" fileName="MakeDistinct_Intention.java" startLine="53" startPosition="127" endLine="54" endPosition="19" />
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="66" startPosition="37" endLine="67" endPosition="33" />
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="14" startPosition="80" endLine="16" endPosition="3" />
@@ -212,7 +212,7 @@
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="6594089058937003143" fileName="MakeDistinct_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="4975721382227573239" fileName="MakeDistinct_Intention.java" startLine="52" startPosition="111" endLine="56" endPosition="162" />
+    <scopeInfo nodeId="4975721382227573239" fileName="MakeDistinct_Intention.java" startLine="52" startPosition="111" endLine="56" endPosition="349" />
     <scopeInfo nodeId="6594089058937003147" fileName="MakeDistinct_Intention.java" startLine="59" startPosition="76" endLine="63" endPosition="76">
       <varInfo nodeId="6594089058937003671" varName="parent" />
       <varInfo nodeId="6594089058937003167" varName="distinctNode" />

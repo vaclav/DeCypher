@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.AvgReturnRetm", "DeCypher.structure.CollectReturnType", "DeCypher.structure.CountReturnTerm", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.IDReturnTerm", "DeCypher.structure.IdInitialization", "DeCypher.structure.IndexInitialization", "DeCypher.structure.IndexLookup", "DeCypher.structure.IndexQuery", "DeCypher.structure.LengthReturnTerm", "DeCypher.structure.LimitClause", "DeCypher.structure.MaxReturnTerm", "DeCypher.structure.MinReturnTerm", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NodeStartTerm", "DeCypher.structure.NodesReturnTerm", "DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.Relationship", "DeCypher.structure.RelationshipReference", "DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.RelationshipStartTerm", "DeCypher.structure.ReturnClause", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StarReturnTerm", "DeCypher.structure.StartClause", "DeCypher.structure.SumReturnTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.TypeReturnTerm", "DeCypher.structure.WhereClause"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"DeCypher.structure.AndWhereExpression", "DeCypher.structure.AvgReturnRetm", "DeCypher.structure.CollectReturnType", "DeCypher.structure.CountReturnTerm", "DeCypher.structure.DistinctReturnTerm", "DeCypher.structure.FalseWhereExpression", "DeCypher.structure.GraphNode", "DeCypher.structure.GraphNodeReference", "DeCypher.structure.IDReturnTerm", "DeCypher.structure.IdInitialization", "DeCypher.structure.IndexInitialization", "DeCypher.structure.IndexLookup", "DeCypher.structure.IndexQuery", "DeCypher.structure.LengthReturnTerm", "DeCypher.structure.LimitClause", "DeCypher.structure.MaxReturnTerm", "DeCypher.structure.MinReturnTerm", "DeCypher.structure.NodeReferringWhereTerm", "DeCypher.structure.NodeReturnTerm", "DeCypher.structure.NodeStartTerm", "DeCypher.structure.NodesReturnTerm", "DeCypher.structure.NonNullReturnTerm", "DeCypher.structure.NotWhereExpression", "DeCypher.structure.OrWhereExpression", "DeCypher.structure.PropertyExpressionWhereTerm", "DeCypher.structure.PropertyReference", "DeCypher.structure.PropertyReferringWhereTerm", "DeCypher.structure.PropertyReturnTerm", "DeCypher.structure.Queries", "DeCypher.structure.Query", "DeCypher.structure.Relationship", "DeCypher.structure.RelationshipReference", "DeCypher.structure.RelationshipReturnTerm", "DeCypher.structure.RelationshipStartTerm", "DeCypher.structure.RelationshipsReturnTerm", "DeCypher.structure.ReturnClause", "DeCypher.structure.SimpleNodeWhereTerm", "DeCypher.structure.SimplePropertyWhereTerm", "DeCypher.structure.StarReturnTerm", "DeCypher.structure.StartClause", "DeCypher.structure.SumReturnTerm", "DeCypher.structure.TrueWhereExpression", "DeCypher.structure.TypeReturnTerm", "DeCypher.structure.WhereClause"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -18,19 +18,19 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Queries_BehaviorDescriptor();
       case 29:
         return new Query_BehaviorDescriptor();
-      case 42:
+      case 43:
         return new WhereClause_BehaviorDescriptor();
       case 0:
         return new AndWhereExpression_BehaviorDescriptor();
       case 23:
         return new OrWhereExpression_BehaviorDescriptor();
-      case 40:
+      case 41:
         return new TrueWhereExpression_BehaviorDescriptor();
       case 5:
         return new FalseWhereExpression_BehaviorDescriptor();
       case 22:
         return new NotWhereExpression_BehaviorDescriptor();
-      case 35:
+      case 36:
         return new SimpleNodeWhereTerm_BehaviorDescriptor();
       case 6:
         return new GraphNode_BehaviorDescriptor();
@@ -44,13 +44,13 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new PropertyReferringWhereTerm_BehaviorDescriptor();
       case 24:
         return new PropertyExpressionWhereTerm_BehaviorDescriptor();
-      case 36:
+      case 37:
         return new SimplePropertyWhereTerm_BehaviorDescriptor();
-      case 38:
+      case 39:
         return new StartClause_BehaviorDescriptor();
       case 19:
         return new NodeStartTerm_BehaviorDescriptor();
-      case 34:
+      case 35:
         return new ReturnClause_BehaviorDescriptor();
       case 18:
         return new NodeReturnTerm_BehaviorDescriptor();
@@ -58,7 +58,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new PropertyReturnTerm_BehaviorDescriptor();
       case 4:
         return new DistinctReturnTerm_BehaviorDescriptor();
-      case 39:
+      case 40:
         return new SumReturnTerm_BehaviorDescriptor();
       case 3:
         return new CountReturnTerm_BehaviorDescriptor();
@@ -70,9 +70,9 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new MaxReturnTerm_BehaviorDescriptor();
       case 2:
         return new CollectReturnType_BehaviorDescriptor();
-      case 41:
+      case 42:
         return new TypeReturnTerm_BehaviorDescriptor();
-      case 37:
+      case 38:
         return new StarReturnTerm_BehaviorDescriptor();
       case 21:
         return new NonNullReturnTerm_BehaviorDescriptor();
@@ -100,6 +100,8 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new RelationshipStartTerm_BehaviorDescriptor();
       case 31:
         return new RelationshipReference_BehaviorDescriptor();
+      case 34:
+        return new RelationshipsReturnTerm_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

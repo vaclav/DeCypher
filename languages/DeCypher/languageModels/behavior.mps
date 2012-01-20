@@ -3,6 +3,7 @@
   <persistence version="7" />
   <language namespace="2bff36db-590f-45b0-8915-8404dea505ff(DeCypher)" />
   <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
+  <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="89ga" modelUID="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" version="15" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -13,6 +14,10 @@
   <roots>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="6594089058936598868">
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="89ga.2541834658517027313" resolveInfo="PropertyReference" />
+    </node>
+    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="7750257802048827996">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="return" />
+      <link role="concept" roleId="1i04.1225194240799" targetNodeId="89ga.6594089058936992699" resolveInfo="DistinctReturnTerm" />
     </node>
   </roots>
   <root id="6594089058936598868">
@@ -42,6 +47,11 @@
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.StringType" typeId="tpee.1225271177708" id="6594089058936630674" />
+    </node>
+  </root>
+  <root id="7750257802048827996">
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="7750257802048827997">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7750257802048827998" />
     </node>
   </root>
 </model>

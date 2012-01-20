@@ -25,6 +25,10 @@
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7750257802048527761">
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="89ga.7750257802048527749" resolveInfo="RelationshipReference" />
     </node>
+    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7750257802048807518">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="return" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="89ga.6594089058936992699" resolveInfo="DistinctReturnTerm" />
+    </node>
   </roots>
   <root id="2541834658517101018">
     <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="2541834658517101019">
@@ -437,6 +441,52 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7750257802048567860">
             <node role="expression" roleId="tpee.1068581517676" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="7750257802048567861">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7750257802048567815" resolveInfo="availableRels" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="7750257802048807518">
+    <node role="canBeParent" roleId="tp1t.1213106478122" type="tp1t.ConstraintFunction_CanBeAParent" typeId="tp1t.1203001093456" id="7750257802048807535">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7750257802048807536">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7750257802048807537">
+          <node role="expression" roleId="tpee.1068581517676" type="tpee.OrExpression" typeId="tpee.1080223426719" id="7750257802048830003">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7750257802048830007">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="7750257802048830010">
+                <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="89ga.4975721382227553497" resolveInfo="NonNullReturnTerm" />
+              </node>
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintFunctionParameter_childConcept" typeId="tp1t.1203001236505" id="7750257802048830006" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.OrExpression" typeId="tpee.1080223426719" id="7750257802048824592">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.OrExpression" typeId="tpee.1080223426719" id="7750257802048824584">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.OrExpression" typeId="tpee.1080223426719" id="7750257802048807556">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7750257802048807551">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintFunctionParameter_childConcept" typeId="tp1t.1203001236505" id="7750257802048807540" />
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="7750257802048807555">
+                      <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="89ga.4975721382227412594" resolveInfo="StarReturnTerm" />
+                    </node>
+                  </node>
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7750257802048807560">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintFunctionParameter_childConcept" typeId="tp1t.1203001236505" id="7750257802048807559" />
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="7750257802048807563">
+                      <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="89ga.6594089058936980514" resolveInfo="NodeReturnTerm" />
+                    </node>
+                  </node>
+                </node>
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7750257802048824588">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintFunctionParameter_childConcept" typeId="tp1t.1203001236505" id="7750257802048824587" />
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="7750257802048824591">
+                    <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="89ga.6594089058936980519" resolveInfo="PropertyReturnTerm" />
+                  </node>
+                </node>
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7750257802048824596">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintFunctionParameter_childConcept" typeId="tp1t.1203001236505" id="7750257802048824595" />
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="7750257802048824599">
+                  <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="89ga.4975721382227574200" resolveInfo="RelationshipReturnTerm" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="RelationshipsReturnTerm_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.RelationshipsReturnTerm_BehaviorDescriptor" />
   <unitInfo fileName="RelationshipStartTerm_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.RelationshipStartTerm_BehaviorDescriptor" />
   <unitInfo fileName="IndexQuery_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.IndexQuery_BehaviorDescriptor" />
   <unitInfo fileName="IdInitialization_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="DeCypher.behavior.IdInitialization_BehaviorDescriptor" />
@@ -51,7 +52,7 @@
   <unitInfo fileName="Query_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Query_BehaviorDescriptor" />
   <unitInfo fileName="Queries_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="DeCypher.behavior.Queries_BehaviorDescriptor" />
   <unitInfo fileName="PropertyReference_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="DeCypher.behavior.PropertyReference_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="108" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="110" endPosition="0" unitName="DeCypher.behavior.BehaviorAspectDescriptor" />
   <root nodeId="6594089058936598868">
     <nodeInfo nodeId="6594089058936630679" fileName="PropertyReference_Behavior.java" startLine="13" startPosition="78" endLine="14" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6594089058936598868" fileName="PropertyReference_Behavior.java" startLine="9" startPosition="41" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
@@ -61,6 +62,12 @@
     <scopeInfo nodeId="6594089058936598868" fileName="PropertyReference_Behavior.java" startLine="9" startPosition="41" endLine="12" endPosition="0" />
     <scopeInfo nodeId="6594089058936598868" fileName="PropertyReference_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
     <unitInfo nodeId="6594089058936598868" fileName="PropertyReference_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="DeCypher.behavior.PropertyReference_Behavior" />
+  </root>
+  <root nodeId="7750257802048827996">
+    <nodeInfo nodeId="7750257802048827996" fileName="DistinctReturnTerm_Behavior.java" startLine="7" startPosition="42" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="7750257802048827998" fileName="DistinctReturnTerm_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="7750257802048827996" fileName="DistinctReturnTerm_Behavior.java" startLine="7" startPosition="42" endLine="10" endPosition="0" />
+    <unitInfo nodeId="7750257802048827996" fileName="DistinctReturnTerm_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="DeCypher.behavior.DistinctReturnTerm_Behavior" />
   </root>
 </debugInfo>
 

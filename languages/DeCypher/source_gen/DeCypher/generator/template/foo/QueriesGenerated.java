@@ -27,8 +27,20 @@ public class QueriesGenerated {
     return _context.getNode();
   }
 
+  public static SNode sourceNodeQuery_7750257802048706203(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "startClause", true);
+  }
+
   public static SNode sourceNodeQuery_4975721382227553488(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "whereClause", true);
+  }
+
+  public static SNode sourceNodeQuery_7750257802048706213(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "returnClause", true);
+  }
+
+  public static SNode sourceNodeQuery_7750257802048706229(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "limitClause", true);
   }
 
   public static Iterable sourceNodesQuery_7818489619910598056(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

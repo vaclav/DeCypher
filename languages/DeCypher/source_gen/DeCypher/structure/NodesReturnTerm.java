@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class NodesReturnTerm extends FunctionalReturnTerm {
+public class NodesReturnTerm extends ReturnTerm {
   public static final String concept = "DeCypher.structure.NodesReturnTerm";
 
   public NodesReturnTerm(SNode node) {

@@ -46,14 +46,14 @@ public class MakeDistinct_Intention extends BaseIntention implements Intention {
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return (int) ListSequence.fromList(SNodeOperations.getAncestors(node, "DeCypher.structure.DistinctReturnTerm", true)).count() == 0;
+    return (int) ListSequence.fromList(SNodeOperations.getAncestors(node, "DeCypher.structure.DistinctReturnTerm", true)).count() == 0 && (SNodeOperations.isInstanceOf(node, "DeCypher.structure.StarReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.PropertyReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.NodeReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.RelationshipReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.NonNullReturnTerm"));
   }
 
   public boolean isVisibleInChild(final SNode node, final SNode childNode, final EditorContext editorContext) {
     if (ListSequence.fromList(SNodeOperations.getAncestors(node, "DeCypher.structure.NonNullReturnTerm", false)).count() > 0) {
       return false;
     }
-    return SNodeOperations.isInstanceOf(node, "DeCypher.structure.PropertyReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.NodeReturnTerm");
+    return SNodeOperations.isInstanceOf(node, "DeCypher.structure.PropertyReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.NodeReturnTerm") || SNodeOperations.isInstanceOf(node, "DeCypher.structure.RelationshipReturnTerm") || SNodeOperations.getAncestor(childNode, "DeCypher.structure.PropertyReturnTerm", true, false) != null;
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

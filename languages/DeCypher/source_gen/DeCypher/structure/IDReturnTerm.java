@@ -7,11 +7,20 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class IDReturnTerm extends FunctionalReturnTerm {
+public class IDReturnTerm extends ReturnTerm {
   public static final String concept = "DeCypher.structure.IDReturnTerm";
+  public static final String GRAPH_NODE = "graphNode";
 
   public IDReturnTerm(SNode node) {
     super(node);
+  }
+
+  public GraphNodeReference getGraphNode() {
+    return (GraphNodeReference) this.getChild(GraphNodeReference.class, IDReturnTerm.GRAPH_NODE);
+  }
+
+  public void setGraphNode(GraphNodeReference node) {
+    super.setChild(IDReturnTerm.GRAPH_NODE, node);
   }
 
   public static IDReturnTerm newInstance(SModel sm, boolean init) {
