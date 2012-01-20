@@ -24,11 +24,11 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static boolean ifMacro_Condition_7750257802048849115(final IOperationContext operationContext, final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_3927384127667566737(final IOperationContext operationContext, final IfMacroContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "limitClause", true) != null;
   }
 
-  public static boolean ifMacro_Condition_7750257802048849133(final IOperationContext operationContext, final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_3927384127667534579(final IOperationContext operationContext, final IfMacroContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "limitClause", true) == null;
   }
 

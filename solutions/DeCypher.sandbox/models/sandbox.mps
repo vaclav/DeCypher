@@ -12,6 +12,41 @@
     </node>
   </roots>
   <root id="7818489619910586506">
+    <node role="queries" roleId="89ga.7818489619910585463" type="89ga.Query" typeId="89ga.7818489619910585461" id="7750257802048861522">
+      <property name="name" nameId="tpck.1169194664001" value="findBuddies" />
+      <node role="startClause" roleId="89ga.2541834658517085270" type="89ga.StartClause" typeId="89ga.2541834658517078140" id="7750257802048861523">
+        <node role="terms" roleId="89ga.2541834658517078151" type="89ga.NodeStartTerm" typeId="89ga.2541834658517078141" id="7750257802048861526">
+          <node role="graphNode" roleId="89ga.2541834658517078142" type="89ga.GraphNode" typeId="89ga.2541834658516920947" id="7750257802048861527">
+            <property name="name" nameId="tpck.1169194664001" value="neo" />
+          </node>
+          <node role="initialization" roleId="89ga.4975721382227699429" type="89ga.IdInitialization" typeId="89ga.4975721382227601709" id="7750257802048861845">
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7750257802048861846">
+              <property name="value" nameId="tpee.1068580320021" value="1" />
+            </node>
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7750257802048861847">
+              <property name="value" nameId="tpee.1068580320021" value="2" />
+            </node>
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7750257802048861848">
+              <property name="value" nameId="tpee.1068580320021" value="3" />
+            </node>
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7750257802048861849">
+              <property name="value" nameId="tpee.1068580320021" value="4" />
+            </node>
+            <node role="ids" roleId="89ga.4975721382227601712" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7750257802048861850">
+              <property name="value" nameId="tpee.1068580320021" value="5" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="whereClause" roleId="89ga.3523181383831992772" type="89ga.WhereClause" typeId="89ga.3523181383831908962" id="7750257802048861524" />
+      <node role="returnClause" roleId="89ga.6594089058936983638" type="89ga.ReturnClause" typeId="89ga.6594089058936980500" id="7750257802048861525">
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.NodeReturnTerm" typeId="89ga.6594089058936980514" id="7750257802048861532">
+          <node role="graphNode" roleId="89ga.6594089058936980515" type="89ga.GraphNodeReference" typeId="89ga.2541834658516920958" id="7750257802048861534">
+            <link role="graphNode" roleId="89ga.2541834658516920960" targetNodeId="7750257802048861527" resolveInfo="neo" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="queries" roleId="89ga.7818489619910585463" type="89ga.Query" typeId="89ga.7818489619910585461" id="7818489619910588756">
       <property name="name" nameId="tpck.1169194664001" value="Bar" />
       <node role="whereClause" roleId="89ga.3523181383831992772" type="89ga.WhereClause" typeId="89ga.3523181383831908962" id="3523181383831995662">
@@ -285,11 +320,9 @@
             <link role="relationship" roleId="89ga.7750257802048527751" targetNodeId="4975721382227713649" resolveInfo="s" />
           </node>
         </node>
-        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.DistinctReturnTerm" typeId="89ga.6594089058936992699" id="7750257802048861277">
-          <node role="nodeReturnTerm" roleId="89ga.6594089058936992701" type="89ga.RelationshipReturnTerm" typeId="89ga.4975721382227574200" id="7750257802048826664">
-            <node role="reference" roleId="89ga.7750257802048567899" type="89ga.RelationshipReference" typeId="89ga.7750257802048527749" id="7750257802048826666">
-              <link role="relationship" roleId="89ga.7750257802048527751" targetNodeId="4975721382227713642" resolveInfo="r" />
-            </node>
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.RelationshipReturnTerm" typeId="89ga.4975721382227574200" id="7750257802048826664">
+          <node role="reference" roleId="89ga.7750257802048567899" type="89ga.RelationshipReference" typeId="89ga.7750257802048527749" id="7750257802048826666">
+            <link role="relationship" roleId="89ga.7750257802048527751" targetNodeId="4975721382227713642" resolveInfo="r" />
           </node>
         </node>
       </node>
