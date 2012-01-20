@@ -126,7 +126,7 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3523181383832000446">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="3523181383832000447">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="8211191680715148593">
-            <property name="value" nameId="2omo.1237305576108" value="\&quot;WHxxERE " />
+            <property name="value" nameId="2omo.1237305576108" value="\&quot;WHxxxxxxxERE " />
           </node>
           <node role="part" roleId="2omo.1237306115446" type="2omo.CollectionAppendPart" typeId="2omo.1237305491868" id="4975721382227508371">
             <node role="list" roleId="2omo.1237305945551" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4975721382227508374">
