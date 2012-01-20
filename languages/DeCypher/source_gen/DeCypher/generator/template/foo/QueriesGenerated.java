@@ -5,9 +5,10 @@ package DeCypher.generator.template.foo;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.generator.template.IfMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
@@ -21,6 +22,14 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_7818489619910596020(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static boolean ifMacro_Condition_7750257802048849115(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "limitClause", true) != null;
+  }
+
+  public static boolean ifMacro_Condition_7750257802048849133(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "limitClause", true) == null;
   }
 
   public static SNode sourceNodeQuery_7818489619910598641(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -39,7 +48,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "returnClause", true);
   }
 
-  public static SNode sourceNodeQuery_7750257802048706229(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_7750257802048849143(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "limitClause", true);
   }
 

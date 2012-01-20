@@ -421,7 +421,7 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4975721382227574169">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="4975721382227574170">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="4975721382227574172">
-            <property name="value" nameId="2omo.1237305576108" value="LIMIT " />
+            <property name="value" nameId="2omo.1237305576108" value="\&quot;LIMIT " />
           </node>
           <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="4975721382227574174">
             <node role="value" roleId="2omo.1237305790512" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4975721382227574187">
@@ -434,6 +434,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="7750257802048840314">
+            <property name="value" nameId="2omo.1237305576108" value="\&quot;" />
           </node>
         </node>
       </node>

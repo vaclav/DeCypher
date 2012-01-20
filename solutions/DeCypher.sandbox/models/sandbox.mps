@@ -285,22 +285,10 @@
             <link role="relationship" roleId="89ga.7750257802048527751" targetNodeId="4975721382227713649" resolveInfo="s" />
           </node>
         </node>
-        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.DistinctReturnTerm" typeId="89ga.6594089058936992699" id="7750257802048831810">
+        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.DistinctReturnTerm" typeId="89ga.6594089058936992699" id="7750257802048861277">
           <node role="nodeReturnTerm" roleId="89ga.6594089058936992701" type="89ga.RelationshipReturnTerm" typeId="89ga.4975721382227574200" id="7750257802048826664">
             <node role="reference" roleId="89ga.7750257802048567899" type="89ga.RelationshipReference" typeId="89ga.7750257802048527749" id="7750257802048826666">
               <link role="relationship" roleId="89ga.7750257802048527751" targetNodeId="4975721382227713642" resolveInfo="r" />
-            </node>
-          </node>
-        </node>
-        <node role="terms" roleId="89ga.6594089058936980503" type="89ga.SumReturnTerm" typeId="89ga.4975721382227391302" id="7750257802048832945">
-          <node role="returnTerm" roleId="89ga.4975721382227391286" type="89ga.DistinctReturnTerm" typeId="89ga.6594089058936992699" id="7750257802048832951">
-            <node role="nodeReturnTerm" roleId="89ga.6594089058936992701" type="89ga.NonNullReturnTerm" typeId="89ga.4975721382227553497" id="7750257802048833136">
-              <node role="propertyReturnTerm" roleId="89ga.4975721382227553499" type="89ga.PropertyReturnTerm" typeId="89ga.6594089058936980519" id="7750257802048832948">
-                <node role="propertyReference" roleId="89ga.6594089058936980520" type="89ga.PropertyReference" typeId="89ga.2541834658517027313" id="7750257802048832950">
-                  <property name="name" nameId="tpck.1169194664001" value="a" />
-                  <link role="graphNode" roleId="89ga.2541834658517027316" targetNodeId="4975721382227699421" resolveInfo="BAAZ" />
-                </node>
-              </node>
             </node>
           </node>
         </node>

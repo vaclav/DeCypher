@@ -8,7 +8,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class LimitClause_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("LIMIT ");
+    this.append("\"LIMIT ");
     this.append(Integer.toString(SPropertyOperations.getInteger(node, "number")));
+    this.append("\"");
   }
 }

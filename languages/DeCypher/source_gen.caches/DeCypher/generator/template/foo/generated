@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="9agn40ycnvzhong9f7vken1kvef5d0v">
+<dependencies version="2" modelHash="hzvj0uqa5g4fnd09rbq6b97br3lyrs">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -12,11 +12,12 @@
   <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
-  <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" hash="-3t0if8lzfx2up17ygu8iuf5wsuw12bj" />
+  <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" hash="e22k09kbtcfi24qes5of3mjl06otjzt" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+  <dep model="r:d64ba0fe-173d-44e2-ab7b-bde40d7e9b7e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.pre@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="5g8uhsykw7qfb4orgsbaj74pdcx6xe7" dependsOnNodes="true">
+  <common hash="-dhchz66mywn9oss4jpnvr8w6ugfh8z9" dependsOnNodes="true">
     <dep root="7818489619910589372" />
     <dep root="7818489619910591359" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -34,6 +35,7 @@
     <dep model="r:a03a72bf-9410-48bd-859b-9b1d8c00e8c5(DeCypher.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:d64ba0fe-173d-44e2-ab7b-bde40d7e9b7e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.pre@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="QueriesGenerated.java" />
   </common>
@@ -43,7 +45,7 @@
   <source id="7818489619910589372" name="map_Queries" hash="bqn3o2tzy4xfnh6q41ni3wiluvijfi5">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="7818489619910591359" name="reduce_Query" hash="4qikyuvbc74ac5u5dn8jry97bzzoq7o">
+  <source id="7818489619910591359" name="reduce_Query" hash="9aam423rwjh7yj8y7j6ckkj17z8gy8g">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
 </dependencies>
