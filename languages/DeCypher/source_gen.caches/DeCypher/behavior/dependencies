@@ -43,6 +43,7 @@
     <classNode dependClassName="DeCypher.behavior.PropertyReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Queries_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Query_BehaviorDescriptor" />
+    <classNode dependClassName="DeCypher.behavior.RelationshipReference_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.RelationshipStartTerm_BehaviorDescriptor" />
     <classNode dependClassName="DeCypher.behavior.Relationship_BehaviorDescriptor" />
@@ -292,6 +293,12 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="DeCypher.behavior.RelationshipReference_BehaviorDescriptor" file="RelationshipReference_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="DeCypher.behavior.RelationshipReturnTerm_BehaviorDescriptor" file="RelationshipReturnTerm_BehaviorDescriptor.java">

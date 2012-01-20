@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="DeCypher.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="31" endPosition="0" unitName="DeCypher.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="2541834658517101018">
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="22" startPosition="79" endLine="23" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_noh95_a0a1a0a0a1a0b0a1a0" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="25" startPosition="43" endLine="26" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="30" startPosition="83" endLine="31" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="34" startPosition="44" endLine="35" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517101033" fileName="GraphNodeReference_Constraints.java" startLine="43" startPosition="142" endLine="44" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2541834658517132723" fileName="GraphNodeReference_Constraints.java" startLine="44" startPosition="125" endLine="45" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2541834658517132753" fileName="GraphNodeReference_Constraints.java" startLine="48" startPosition="47" endLine="49" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517132761" fileName="GraphNodeReference_Constraints.java" startLine="52" startPosition="13" endLine="53" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="57" startPosition="61" endLine="58" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="62" startPosition="7" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="24" startPosition="0" endLine="27" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GraphNodeReference_Constraints#()V" />
-    <nodeInfo nodeId="2541834658517132749" fileName="GraphNodeReference_Constraints.java" startLine="47" startPosition="190" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="32" startPosition="91" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
-    <nodeInfo nodeId="2541834658517132728" fileName="GraphNodeReference_Constraints.java" startLine="46" startPosition="97" endLine="51" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="55" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
-    <nodeInfo nodeId="2541834658517101043" fileName="GraphNodeReference_Constraints.java" startLine="45" startPosition="51" endLine="52" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="41" startPosition="49" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="40" startPosition="56" endLine="60" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="37" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="31" startPosition="75" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="28" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="25" startPosition="43" endLine="26" endPosition="51" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="34" startPosition="44" endLine="35" endPosition="20" />
-    <scopeInfo nodeId="2541834658517132750" fileName="GraphNodeReference_Constraints.java" startLine="48" startPosition="47" endLine="49" endPosition="74" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="57" startPosition="61" endLine="58" endPosition="57" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
-    <scopeInfo nodeId="2541834658517132749" fileName="GraphNodeReference_Constraints.java" startLine="47" startPosition="190" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="32" startPosition="91" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="2541834658517101044" fileName="GraphNodeReference_Constraints.java" startLine="46" startPosition="97" endLine="51" endPosition="17" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="55" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="2541834658517101021" fileName="GraphNodeReference_Constraints.java" startLine="43" startPosition="142" endLine="53" endPosition="35">
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="23" startPosition="79" endLine="24" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_noh95_a0a1a0a0a1a0b0a1a0" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="26" startPosition="43" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="31" startPosition="83" endLine="32" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517101033" fileName="GraphNodeReference_Constraints.java" startLine="44" startPosition="142" endLine="45" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2541834658517132723" fileName="GraphNodeReference_Constraints.java" startLine="45" startPosition="125" endLine="46" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7750257802048567871" fileName="GraphNodeReference_Constraints.java" startLine="49" startPosition="49" endLine="50" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048567890" fileName="GraphNodeReference_Constraints.java" startLine="53" startPosition="47" endLine="54" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517132761" fileName="GraphNodeReference_Constraints.java" startLine="57" startPosition="13" endLine="58" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="62" startPosition="61" endLine="63" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="67" startPosition="7" endLine="68" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GraphNodeReference_Constraints#()V" />
+    <nodeInfo nodeId="7750257802048567867" fileName="GraphNodeReference_Constraints.java" startLine="48" startPosition="185" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="7750257802048567886" fileName="GraphNodeReference_Constraints.java" startLine="52" startPosition="55" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="33" startPosition="91" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="60" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
+    <nodeInfo nodeId="2541834658517132728" fileName="GraphNodeReference_Constraints.java" startLine="47" startPosition="97" endLine="56" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517101043" fileName="GraphNodeReference_Constraints.java" startLine="46" startPosition="51" endLine="57" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="42" startPosition="49" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="41" startPosition="56" endLine="65" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="38" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="32" startPosition="75" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="29" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="26" startPosition="43" endLine="27" endPosition="51" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="7750257802048567868" fileName="GraphNodeReference_Constraints.java" startLine="49" startPosition="49" endLine="50" endPosition="94" />
+    <scopeInfo nodeId="7750257802048567887" fileName="GraphNodeReference_Constraints.java" startLine="53" startPosition="47" endLine="54" endPosition="132" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="62" startPosition="61" endLine="63" endPosition="57" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="7750257802048567867" fileName="GraphNodeReference_Constraints.java" startLine="48" startPosition="185" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="7750257802048567886" fileName="GraphNodeReference_Constraints.java" startLine="52" startPosition="55" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="33" startPosition="91" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="60" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="2541834658517101044" fileName="GraphNodeReference_Constraints.java" startLine="47" startPosition="97" endLine="56" endPosition="17" />
+    <scopeInfo nodeId="2541834658517101021" fileName="GraphNodeReference_Constraints.java" startLine="44" startPosition="142" endLine="58" endPosition="35">
       <varInfo nodeId="2541834658517132724" varName="startGraphNodes" />
       <varInfo nodeId="2541834658517101034" varName="query" />
     </scopeInfo>
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="41" startPosition="49" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="40" startPosition="56" endLine="60" endPosition="10" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="37" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="30" startPosition="83" endLine="63" endPosition="22" />
-    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="28" startPosition="0" endLine="65" endPosition="0" />
-    <unitInfo nodeId="2541834658517132749" fileName="GraphNodeReference_Constraints.java" startLine="47" startPosition="163" endLine="51" endPosition="15" unitName="DeCypher.constraints.GraphNodeReference_Constraints$3" />
-    <unitInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="41" startPosition="19" endLine="60" endPosition="9" unitName="DeCypher.constraints.GraphNodeReference_Constraints$2" />
-    <unitInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="32" startPosition="36" endLine="62" endPosition="5" unitName="DeCypher.constraints.GraphNodeReference_Constraints$1" />
-    <unitInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="22" startPosition="0" endLine="66" endPosition="0" unitName="DeCypher.constraints.GraphNodeReference_Constraints" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="42" startPosition="49" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="41" startPosition="56" endLine="65" endPosition="10" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="38" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="31" startPosition="83" endLine="68" endPosition="22" />
+    <scopeInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="29" startPosition="0" endLine="70" endPosition="0" />
+    <unitInfo nodeId="7750257802048567867" fileName="GraphNodeReference_Constraints.java" startLine="48" startPosition="162" endLine="52" endPosition="15" unitName="DeCypher.constraints.GraphNodeReference_Constraints$3" />
+    <unitInfo nodeId="7750257802048567886" fileName="GraphNodeReference_Constraints.java" startLine="52" startPosition="28" endLine="56" endPosition="15" unitName="DeCypher.constraints.GraphNodeReference_Constraints$3" />
+    <unitInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="42" startPosition="19" endLine="65" endPosition="9" unitName="DeCypher.constraints.GraphNodeReference_Constraints$2" />
+    <unitInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="33" startPosition="36" endLine="67" endPosition="5" unitName="DeCypher.constraints.GraphNodeReference_Constraints$1" />
+    <unitInfo nodeId="2541834658517101018" fileName="GraphNodeReference_Constraints.java" startLine="23" startPosition="0" endLine="71" endPosition="0" unitName="DeCypher.constraints.GraphNodeReference_Constraints" />
   </root>
   <root nodeId="2541834658517133383">
     <nodeInfo nodeId="2541834658517133383" fileName="PropertyReference_Constraints.java" startLine="26" startPosition="78" endLine="27" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_57atcm_a0a1a0a0a1a0b0a1a1" />
@@ -133,6 +138,56 @@
     <scopeInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="18" startPosition="0" endLine="36" endPosition="0" />
     <unitInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="22" startPosition="33" endLine="33" endPosition="5" unitName="DeCypher.constraints.LimitClause_Constraints$1" />
     <unitInfo nodeId="4975721382227600849" fileName="LimitClause_Constraints.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="DeCypher.constraints.LimitClause_Constraints" />
+  </root>
+  <root nodeId="7750257802048527761">
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="23" startPosition="82" endLine="24" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_23ycph_a0a1a0a0a1a0b0a1a0" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="26" startPosition="46" endLine="27" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="31" startPosition="83" endLine="32" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048567805" fileName="RelationshipReference_Constraints.java" startLine="44" startPosition="142" endLine="45" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7750257802048567814" fileName="RelationshipReference_Constraints.java" startLine="45" startPosition="124" endLine="46" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7750257802048567842" fileName="RelationshipReference_Constraints.java" startLine="49" startPosition="49" endLine="50" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048567852" fileName="RelationshipReference_Constraints.java" startLine="53" startPosition="47" endLine="54" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048567860" fileName="RelationshipReference_Constraints.java" startLine="57" startPosition="13" endLine="58" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="62" startPosition="61" endLine="63" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="67" startPosition="7" endLine="68" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RelationshipReference_Constraints#()V" />
+    <nodeInfo nodeId="7750257802048567840" fileName="RelationshipReference_Constraints.java" startLine="48" startPosition="183" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="7750257802048567850" fileName="RelationshipReference_Constraints.java" startLine="52" startPosition="55" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="33" startPosition="97" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="60" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
+    <nodeInfo nodeId="7750257802048567830" fileName="RelationshipReference_Constraints.java" startLine="47" startPosition="97" endLine="56" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7750257802048567819" fileName="RelationshipReference_Constraints.java" startLine="46" startPosition="49" endLine="57" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="42" startPosition="49" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="41" startPosition="56" endLine="65" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="38" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="32" startPosition="75" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="29" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="26" startPosition="46" endLine="27" endPosition="54" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="7750257802048567841" fileName="RelationshipReference_Constraints.java" startLine="49" startPosition="49" endLine="50" endPosition="102" />
+    <scopeInfo nodeId="7750257802048567851" fileName="RelationshipReference_Constraints.java" startLine="53" startPosition="47" endLine="54" endPosition="143" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="62" startPosition="61" endLine="63" endPosition="58" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="7750257802048567840" fileName="RelationshipReference_Constraints.java" startLine="48" startPosition="183" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="7750257802048567850" fileName="RelationshipReference_Constraints.java" startLine="52" startPosition="55" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="33" startPosition="97" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="60" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="7750257802048567829" fileName="RelationshipReference_Constraints.java" startLine="47" startPosition="97" endLine="56" endPosition="17" />
+    <scopeInfo nodeId="7750257802048567804" fileName="RelationshipReference_Constraints.java" startLine="44" startPosition="142" endLine="58" endPosition="33">
+      <varInfo nodeId="7750257802048567806" varName="query" />
+      <varInfo nodeId="7750257802048567815" varName="availableRels" />
+    </scopeInfo>
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="42" startPosition="49" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="41" startPosition="56" endLine="65" endPosition="10" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="38" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="31" startPosition="83" endLine="68" endPosition="22" />
+    <scopeInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="29" startPosition="0" endLine="70" endPosition="0" />
+    <unitInfo nodeId="7750257802048567840" fileName="RelationshipReference_Constraints.java" startLine="48" startPosition="160" endLine="52" endPosition="15" unitName="DeCypher.constraints.RelationshipReference_Constraints$3" />
+    <unitInfo nodeId="7750257802048567850" fileName="RelationshipReference_Constraints.java" startLine="52" startPosition="28" endLine="56" endPosition="15" unitName="DeCypher.constraints.RelationshipReference_Constraints$3" />
+    <unitInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="42" startPosition="19" endLine="65" endPosition="9" unitName="DeCypher.constraints.RelationshipReference_Constraints$2" />
+    <unitInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="33" startPosition="39" endLine="67" endPosition="5" unitName="DeCypher.constraints.RelationshipReference_Constraints$1" />
+    <unitInfo nodeId="7750257802048527761" fileName="RelationshipReference_Constraints.java" startLine="23" startPosition="0" endLine="71" endPosition="0" unitName="DeCypher.constraints.RelationshipReference_Constraints" />
   </root>
 </debugInfo>
 

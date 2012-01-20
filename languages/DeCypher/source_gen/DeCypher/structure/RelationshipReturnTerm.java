@@ -9,9 +9,18 @@ import jetbrains.mps.project.GlobalScope;
 
 public class RelationshipReturnTerm extends ReturnTerm {
   public static final String concept = "DeCypher.structure.RelationshipReturnTerm";
+  public static final String REFERENCE = "reference";
 
   public RelationshipReturnTerm(SNode node) {
     super(node);
+  }
+
+  public RelationshipReference getReference() {
+    return (RelationshipReference) this.getChild(RelationshipReference.class, RelationshipReturnTerm.REFERENCE);
+  }
+
+  public void setReference(RelationshipReference node) {
+    super.setChild(RelationshipReturnTerm.REFERENCE, node);
   }
 
   public static RelationshipReturnTerm newInstance(SModel sm, boolean init) {

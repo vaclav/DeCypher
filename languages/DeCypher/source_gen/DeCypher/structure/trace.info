@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="DeCypher_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="DeCypher.structure.DeCypher_Language" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="123" endPosition="0" unitName="DeCypher.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="125" endPosition="0" unitName="DeCypher.structure.StructureAspectDescriptor" />
   <root nodeId="2541834658516763898">
     <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="11" startPosition="44" endLine="12" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2541834658516763898" fileName="WhereTerm.java" startLine="14" startPosition="32" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -837,19 +837,28 @@
   </root>
   <root nodeId="4975721382227574200">
     <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="10" startPosition="56" endLine="11" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="13" startPosition="45" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="17" startPosition="77" endLine="18" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="21" startPosition="63" endLine="22" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="12" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RelationshipReturnTerm#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/RelationshipReturnTerm;" />
-    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/RelationshipReturnTerm;" />
-    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="13" startPosition="45" endLine="14" endPosition="16" />
-    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="17" startPosition="77" endLine="18" endPosition="176" />
-    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="21" startPosition="63" endLine="22" endPosition="57" />
-    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <unitInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="DeCypher.structure.RelationshipReturnTerm" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="11" startPosition="83" endLine="12" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="REFERENCE" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="14" startPosition="45" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="18" startPosition="47" endLine="19" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="22" startPosition="56" endLine="23" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="26" startPosition="77" endLine="27" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="30" startPosition="63" endLine="31" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RelationshipReturnTerm#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getReference#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setReference#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/RelationshipReturnTerm;" />
+    <nodeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/RelationshipReturnTerm;" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="14" startPosition="45" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="18" startPosition="47" endLine="19" endPosition="112" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="22" startPosition="56" endLine="23" endPosition="59" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="26" startPosition="77" endLine="27" endPosition="176" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="30" startPosition="63" endLine="31" endPosition="57" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="4975721382227574200" fileName="RelationshipReturnTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.RelationshipReturnTerm" />
   </root>
   <root nodeId="4975721382227601705">
     <nodeInfo nodeId="4975721382227601705" fileName="Initialization.java" startLine="11" startPosition="49" endLine="12" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -1359,6 +1368,31 @@
     <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <unitInfo nodeId="6594089058936992699" fileName="DistinctReturnTerm.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="DeCypher.structure.DistinctReturnTerm" />
+  </root>
+  <root nodeId="7750257802048527749">
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="11" startPosition="56" endLine="12" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="12" startPosition="82" endLine="13" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RELATIONSHIP" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="15" startPosition="44" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="19" startPosition="41" endLine="20" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="23" startPosition="50" endLine="24" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="27" startPosition="76" endLine="28" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="31" startPosition="62" endLine="32" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RelationshipReference#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRelationship#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRelationship#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)LDeCypher/structure/RelationshipReference;" />
+    <nodeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)LDeCypher/structure/RelationshipReference;" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="15" startPosition="44" endLine="16" endPosition="16" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="19" startPosition="41" endLine="20" endPosition="99" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="23" startPosition="50" endLine="24" endPosition="64" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="27" startPosition="76" endLine="28" endPosition="174" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="31" startPosition="62" endLine="32" endPosition="56" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <unitInfo nodeId="7750257802048527749" fileName="RelationshipReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="DeCypher.structure.RelationshipReference" />
   </root>
   <root nodeId="7818489619910585460">
     <nodeInfo nodeId="7818489619910585460" fileName="Queries.java" startLine="15" startPosition="67" endLine="16" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
